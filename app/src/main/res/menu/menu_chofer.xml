@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_pin"
+            android:title="@string/mi_ubicacion"/>
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/ic_libro_abierto"
+            android:title="@string/historial"/>
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_dolar"
+            android:title="@string/estado_de_cuenta"/>
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_notificacion"
+            android:title="@string/notificaciones"/>
+
+
+        <item
+            android:id="@+id/nav_reservations"
+            android:icon="@drawable/ic_calendario_reloj"
+            android:title="@string/reservas"/>
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/chat"/>
+
+        <item
+            android:id="@+id/nav_frequent_questions"
+            android:icon="@drawable/ic_help"
+            android:title="@string/frequent_questions"/>
+
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_mensaje_enviado"
+            android:title="@string/reporte_falla"/>
+
+    </group>
+
+    <item android:title="@string/usuario">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_user"
+                android:title="@string/perfil"/>
+
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_salir"
+                android:title="@string/salir" />
+
+        </menu>
+    </item>
+
+
+</menu>

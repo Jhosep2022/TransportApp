@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.FragmentFrequentQuestions"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            >
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_1"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_1_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_1"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_2"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_2_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_2"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_3"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_3_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_3"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_4"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_4_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_4"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_5"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_5_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_5"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_6"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_6_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_6"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_7"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_7_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_7"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_8"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_8_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_8"
+                style="@style/TextCard"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_9"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_9_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_9"
+                style="@style/TextCard"
+                android:layout_marginBottom="24dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_title_10"
+                style="@style/TitleCard"
+                />
+            <TextView
+                android:id="@+id/txt_question_10_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/place_to_pay_question_description_10"
+                style="@style/TextCard"
+                android:textColor="@color/colorAzul"
+                android:layout_marginBottom="24dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

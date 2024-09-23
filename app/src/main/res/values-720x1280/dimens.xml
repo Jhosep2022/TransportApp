@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="textPrice">28sp</dimen>
+    <dimen name="textTitle">18sp</dimen>
+    <dimen name="textSubTitle">16sp</dimen>
+    <dimen name="textNormal">14sp</dimen>
+    <dimen name="textInfo">12sp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="client_bottom_layout_finish_travel_icon_size">24dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_separator">20dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_title_card">14sp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_car_size">80dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_car_padding">8dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_icon_margin_top">-8dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_iconTop_margin_bottom">-14dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_image_flete">30dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_buttom_padding">16dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_buttom_padding_small">8dp</dimen>
+    <dimen name="client_bottom_layout_finish_travel_buttom_margin_top">8dp</dimen>
+    <dimen name="client_bottom_layout_choose_flete_percent_text_width">0.5</dimen>
+
+
+    <dimen name="driver_pay_button_size">12sp</dimen>
+
+</resources>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.apreciasoft.mobile.asremis.Activity.HomeChofer">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorNegro"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        layout="@layout/content_home"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout2" />
+
+
+    <include
+        android:id="@+id/payment"
+        layout="@layout/dialog_final_travel"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textTiempo"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_border_textview_time"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="1000"
+        android:textColor="@color/colorBlanco"
+        android:textSize="@dimen/textSubTitle"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+
+            <ImageButton
+                android:id="@+id/btn_open_gmap_find_passenger"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/google_map_icon"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="8dp"
+                android:elevation="4dp"
+                />
+            <ImageButton
+                android:id="@+id/btn_open_waze_find_passenger"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/waze_icon"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="8dp"
+                android:elevation="4dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+        android:id="@+id/linearLayout77"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/dw_button_red_solid"
+            android:drawableLeft="@drawable/ic_cancelar"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="@string/rechazar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlanco" />
+
+        <Button
+            android:id="@+id/btn_init"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/dw_button_primary_blue"
+            android:drawableLeft="@drawable/ic_taxi_parada"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="@string/iniciar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlanco" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+
+            <ImageButton
+                android:id="@+id/btn_open_gmap_go_destination"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/google_map_icon"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="8dp"
+                android:elevation="4dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_open_waze_go_destination"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/waze_icon"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="8dp"
+                android:elevation="4dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+        android:id="@+id/linearLayout88"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_pre_finish"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/dw_button_primary_blue"
+            android:drawableLeft="@drawable/ic_llamando_al_taxi"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="@string/finalizar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlanco" />
+
+        <Button
+            android:id="@+id/btn_iniTimeSlep"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/dw_button_red_solid"
+            android:drawableLeft="@drawable/ic_parar"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="@string/esperar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlanco" />
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/dw_button_primary"
+            android:drawableLeft="@drawable/ic_vuelta"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="@string/vuelta"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlanco" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/material_design_android_floating_action_menu_chofer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu_animationDelayPerItem="55"
+        app:menu_backgroundColor="@android:color/transparent"
+        app:menu_buttonSpacing="0dp"
+        app:menu_colorNormal="@color/colorAzulOscuro"
+        app:menu_colorPressed="@color/colorPrimary"
+        app:menu_colorRipple="#fff"
+        app:menu_fab_label=""
+        app:menu_fab_size="normal"
+        app:menu_labels_colorPressed="#fff"
+        app:menu_labels_colorRipple="#fff"
+        app:menu_labels_cornerRadius="3dp"
+        app:menu_labels_ellipsize="none"
+        app:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        app:menu_labels_margin="0dp"
+        app:menu_labels_maxLines="-1"
+        app:menu_labels_padding="8dp"
+        app:menu_labels_position="left"
+        app:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        app:menu_labels_showShadow="false"
+        app:menu_labels_singleLine="false"
+        app:menu_labels_textColor="#f2f1f1"
+        app:menu_labels_textSize="15sp"
+        app:menu_openDirection="up"
+        app:menu_shadowColor="@color/colorPrimary"
+        app:menu_shadowRadius="0dp"
+        app:menu_shadowXOffset="0dp"
+        app:menu_shadowYOffset="0dp"
+        app:menu_showShadow="true"
+        tools:ignore="VectorDrawableCompat">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item_chofer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_taxi"
+            app:fab_colorNormal="@color/colorAzul"
+            app:fab_colorPressed="@color/colorBlanco"
+            app:fab_colorRipple="@color/colorAzul"
+            app:fab_label="@string/viaje_de_calle"
+            app:fab_size="mini"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

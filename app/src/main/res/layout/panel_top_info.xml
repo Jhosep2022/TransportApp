@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@color/colorNegroClaro">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/distancia_recorrida"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/textNormal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txt_distance_real"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="0.0 Km"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/textNormal"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/informacion"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/textNormal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+
+            />
+
+
+        <TextView
+            android:id="@+id/infoGneral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="0dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/textNormal"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+
+        <ImageButton
+            android:id="@+id/button_info_travel"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@color/colorVacio"
+            android:cropToPadding="true"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_mas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/section_travel_by_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorRojo"
+        app:layout_constraintTop_toBottomOf="@+id/layoutInfo"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiempo_transcurrido"
+            android:textColor="@color/white87"
+            />
+
+        <TextView
+            android:id="@+id/txt_tiempo_transcurrido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:21:04"
+            android:textStyle="bold"
+            android:textColor="@color/white87"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/section_msg_paused"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/GRREN_FULL"
+
+        app:layout_constraintTop_toBottomOf="@+id/layoutInfo"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        >
+
+        <TextView
+            android:id="@+id/txtMsgPausar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Servicio Activo"
+            android:textColor="@color/white87"
+            android:textStyle="bold"
+            style="@style/TitleCard"
+            android:layout_marginStart="8dp"
+            android:paddingTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/switchPause"
+            />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:checked="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

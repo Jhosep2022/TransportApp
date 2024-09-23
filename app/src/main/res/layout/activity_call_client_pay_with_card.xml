@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CallClientPayWithCard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/colorNegro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton_cerrar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorVacio"
+            app:srcCompat="@drawable/ic_cancelar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/total_pagar"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/textSubTitle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/txt_mount2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/colorVerde"
+        android:gravity="center"
+        android:text="$ 0"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mount2"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="credit_card.json"
+        app:lottie_loop="true" />
+
+
+    <LinearLayout
+        android:id="@+id/section_payment_processor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animation_view"
+        >
+
+        <TextView
+            android:id="@+id/txt_recharge_fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:text="@string/metodo_de_pago_recargo"
+            android:textAlignment="center"
+            android:textSize="@dimen/textNormal"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/txtTopPaymentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/mensaje_solicitar_pago_con_tarjeta_text_top"
+            android:textAlignment="center"
+            android:textSize="@dimen/textNormal"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            >
+            <TextView
+                android:id="@+id/txtTopPaymentDescriptionMiddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/mensaje_solicitar_pago_con_tarjeta_text_middle"
+                android:textAlignment="center"
+                android:textSize="@dimen/textNormal"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtTopPaymentDescriptionBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/mensaje_solicitar_pago_con_tarjeta_text_bottom"
+            android:textAlignment="center"
+            android:textSize="@dimen/textSubTitle"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_pagar_tarjeta"
+        android:layout_width='0dp'
+        android:layout_height='50dp'
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/dw_button_primary_blue"
+        android:drawableLeft="@drawable/ic_tarjeta_de_credito"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text='@string/solicitar_pago_con_tarjeta'
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/section_payment_processor" />
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email_mercado" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

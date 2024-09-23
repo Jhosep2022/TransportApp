@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="estilo_celda">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light">
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.CharacterCounter" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAzul</item>
+    </style>
+
+    <style name="Editext_card" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/colorAzul</item>
+        <item name="android:textColor">@color/colorNegro</item>
+        <item name="colorControlNormal">@color/colorNegroClaro</item>
+        <item name="colorControlActivated">@color/colorAzul</item>
+        <item name="android:textColorHighlight">@color/colorNegroClaro</item>
+    </style>
+
+
+    <style name="ButtonSquare">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@color/colorAzul</item>
+    </style>
+
+    <style name="TitleCard">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/black87</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextCard">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textColor">@color/black60</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MyTabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyTabTextAppearance</item>
+    </style>
+
+    <style name="MyTabTextAppearance" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="TextCardLoginImage">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/colorAzul</item>
+        <item name="android:textColor">@color/white87</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:layout_marginEnd">56dp</item>
+        <item name="android:layout_marginRight">56dp</item>
+
+    </style>
+
+    <style name="TextCardLoginSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorRojo</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+
+    </style>
+
+    <style name="styleMapTextMarkerAddress">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:color">@color/colorNegro</item>
+    </style>
+
+
+    <style name="NumberPickerText">
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="ButtonTextSize">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="ButtonTextSizeSmall">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

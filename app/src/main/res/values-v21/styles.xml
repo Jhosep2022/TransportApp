@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
+
+    </style>
+
+    <style name="MyCheckbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">@color/colorBlanco</item>
+        <item name="android:colorControlActivated">@color/colorAzul</item>
+        <item name="android:colorControlHighlight">@color/colorBlanco</item>
+    </style>
+
+    <style name="ButtonSquare">
+        <item name="android:padding">16dp</item>
+        <item name="android:backgroundTint">@color/colorAzul</item>
+    </style>
+
+    <style name="TitleCard">
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/black87</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextCard">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textColor">@color/black60</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

@@ -1,0 +1,925 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".Fragments.NewDriverFotosExtendedFragment"
+              android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mediumDarkBlueGrey"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:orientation="vertical"
+                android:background="@color/mediumDarkBlueGrey"
+                >
+                <!-- FOTO DEL CONDUCTOR -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoFotoDelConductor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoConductorDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_user"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoConductor"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul"
+                            >
+                            <TextView
+                                android:id="@+id/txtFotoConductorTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_conductor"
+                                style="@style/TextCardLoginImage"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoConductorSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoConductorTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoConductor"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DEL VEHICULO DE COSTADO -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoVehiculo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoVehiculoDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_car"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoVehiculo"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul">
+                            <TextView
+                                android:id="@+id/txtFotoVehiculoTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_vehiculo"
+                                style="@style/TextCardLoginImage"
+                                android:layout_marginEnd="56dp"
+                                android:layout_marginRight="56dp"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoVehiculoSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoVehiculoTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoVehiculo"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DEL VEHICULO DE FRENTE -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoVehiculoFrente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoVehiculoFrenteDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_car"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoVehiculoFrente"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul">
+                            <TextView
+                                android:id="@+id/txtFotoVehiculoFrenteTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_vehiculo"
+                                style="@style/TextCardLoginImage"
+                                android:layout_marginEnd="56dp"
+                                android:layout_marginRight="56dp"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoVehiculoFrenteSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoVehiculoFrenteTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoVehiculoFrente"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DE PLACAS (CHAPA DEL VEHICULO) -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoChapa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoChapaVehiculoDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_patente"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoChapaVehiculo"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul">
+                            <TextView
+                                android:id="@+id/txtFotoChapaVehiculoTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_chapa_del_vehiculo"
+                                style="@style/TextCardLoginImage"
+                                android:layout_marginEnd="56dp"
+                                android:layout_marginRight="56dp"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoChapaVehiculoSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoChapaVehiculoTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoChapaVehiculo"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DE LICENCIA DE CONDUCIR -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoLicenciaDeConducir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgLicenciaConductorDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_licencia_de_conducir"
+                            android:padding="24dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgLicenciaConductor"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul"
+                            >
+                            <TextView
+                                android:id="@+id/txtLicenciaConductorTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/licencia_del_conductor"
+                                style="@style/TextCardLoginImage" />
+                            <TextView
+                                android:id="@+id/txtLicenciaConductorSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtLicenciaConductorTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteLicenciaConductor"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DE INE Y/O IFE -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoINEIFE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoINEyoIFEDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_user"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoINEyoIFE"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul"
+                            >
+                            <TextView
+                                android:id="@+id/txtFotoINEyoIFETitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_conductor"
+                                style="@style/TextCardLoginImage"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoINEyoIFESubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoINEyoIFETitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoINEyoIFE"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DE CONSTANCIA FISCAL FRONTAL -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoConstanciaFiscalFrontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoConstanciaFiscalFrontalDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_licencia_de_conducir"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoConstanciaFiscalFrontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul"
+                            >
+                            <TextView
+                                android:id="@+id/txtFotoConstanciaFiscalFrontalTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_conductor"
+                                style="@style/TextCardLoginImage"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoConstanciaFiscalFrontalSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoConstanciaFiscalFrontalTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoConstanciaFiscalFrontal"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DE CONSTANCIA FISCAL TRASERA -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoConstanciaFiscalTrasera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoConstanciaFiscalTraseraDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_licencia_de_conducir"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoConstanciaFiscalTrasera"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul"
+                            >
+                            <TextView
+                                android:id="@+id/txtFotoConstanciaFiscalTraseraTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_conductor"
+                                style="@style/TextCardLoginImage"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoConstanciaFiscalTraseraSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoConstanciaFiscalTraseraTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoConstanciaFiscalTrasera"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO VIN DEL VEHICULO-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoVinDelVehiculo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoVinVehiculoDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_inbox_black_24dp"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoVinVehiculo"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul"
+                            >
+                            <TextView
+                                android:id="@+id/txtFotoVinVehiculoTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_conductor"
+                                style="@style/TextCardLoginImage"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoVinVehiculoSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoVinVehiculoTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoVinVehiculo"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO  DE ESTADO DE CUENTA-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoEstadoDeCuenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoEstadoDeCuentaDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_receipt_black_24dp"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoEstadoDeCuenta"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:background="@color/colorAzul"
+                            >
+                            <TextView
+                                android:id="@+id/txtFotoEstadoDeCuentaTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/foto_del_conductor"
+                                style="@style/TextCardLoginImage"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoEstadoDeCuentaSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoEstadoDeCuentaTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteFotoEstadoDeCuenta"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- FOTO DE ANTECEDENTES POLICIALES-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotoAntecedentesPoliciales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoAntecedentesPolicialesDummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/ic_receipt_black_24dp"
+                            android:padding="31dp"
+                            android:scaleType="fitCenter"
+                            android:tint="@color/colorNegro"
+                            />
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgFotoAntecedentesPoliciales"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="0dp"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAzul">
+                            <TextView
+                                android:id="@+id/txtFotoAntecedentesPolicialesTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/certificado_antecedentes_policiales"
+                                style="@style/TextCardLoginImage"
+                                android:layout_marginEnd="56dp"
+                                android:layout_marginRight="56dp"
+                                />
+                            <TextView
+                                android:id="@+id/txtFotoAntecedentesPolicialesSubtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/obligatorio"
+                                android:layout_below="@+id/txtFotoAntecedentesPolicialesTitle"
+                                style="@style/TextCardLoginSubtitle"
+                                />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDeleteAntecedentesPoliciales"
+                                android:layout_width="56dp"
+                                android:layout_height="56dp"
+                                app:srcCompat="@drawable/ic_delete_24dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true"
+                                android:padding="8dp"
+                                android:visibility="gone"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutTermsAndConditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView_empresa"
+                    android:layout_marginTop="18dp"
+                    >
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/chkTermsAndConditions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/MyCheckbox"
+                        android:padding="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="8dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+                    <TextView
+                        android:id="@+id/txtTermsAndConditions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acepto_condiciones"
+                        android:textSize="@dimen/textSubTitle"
+                        android:textColor="@color/white87"
+                        app:layout_constraintStart_toEndOf="@+id/chkTermsAndConditions"
+                        app:layout_constraintTop_toTopOf="@+id/chkTermsAndConditions"
+                        app:layout_constraintBottom_toBottomOf="@+id/chkTermsAndConditions"
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_below="@+id/layoutTermsAndConditions"
+                    android:background="@color/colorNegro"
+                    android:text="@string/registrar"
+                    style="@style/ButtonTextSize"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlanco"
+                    />
+
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/btn_register"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/dw_button_primary_blue"
+                    android:paddingLeft="28dp"
+                    android:paddingRight="28dp"
+                    android:text="@string/atras"
+                    style="@style/ButtonTextSize"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlanco"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

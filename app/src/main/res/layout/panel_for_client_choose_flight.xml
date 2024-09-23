@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/panel_for_finish_choose_flight_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorFondo"
+              android:elevation="18dp"
+              android:orientation="vertical"
+              android:padding="8dp"
+              android:paddingBottom="8dp"
+              app:behavior_hideable="true"
+              app:behavior_peekHeight="200dp"
+              app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/blueClear"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content_flete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="@string/hora_vuelo"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_hoursAribo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_hoursAribo"/>
+
+
+            <EditText
+                android:id="@+id/txt_hoursAribo"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/dw_edit_black_new"
+                android:inputType="time"
+                android:textAlignment="center"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView16"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="@string/aeropuerto"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_terminalnew"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_terminalnew"/>
+
+            <EditText
+                android:id="@+id/txt_terminalnew"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/dw_edit_black_new"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/txt_hoursAribo"
+                app:layout_constraintTop_toBottomOf="@+id/txt_hoursAribo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="@string/aerolinea"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_airlineCompany"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_airlineCompany"/>
+
+
+            <EditText
+                android:id="@+id/txt_airlineCompany"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/dw_edit_black_new"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/txt_terminalnew"
+                app:layout_constraintTop_toBottomOf="@+id/txt_terminalnew"/>
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="@string/numero_vuelo"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_flyNumber"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_flyNumber"/>
+
+
+            <EditText
+                android:id="@+id/txt_flyNumber"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/dw_edit_black_new"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="@dimen/textNormal"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="@+id/txt_terminalnew"
+                app:layout_constraintTop_toBottomOf="@+id/txt_airlineCompany"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btn_acept_flight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/ok"
+            android:textAllCaps="true"
+            android:textSize="@dimen/textSubTitle"
+            android:padding="@dimen/client_bottom_layout_finish_travel_buttom_padding"
+            android:textColor="@color/blanco"
+            android:background="@color/colorNegro"
+            app:layout_constraintTop_toBottomOf="@+id/content_flete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

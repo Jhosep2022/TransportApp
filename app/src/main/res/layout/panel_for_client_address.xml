@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/panel_for_client_address_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:behavior_peekHeight="118dp"
+    android:background="@color/blanco"
+    app:layout_behavior="com.apreciasoft.mobile.asremis.Util.AnchorSheetBehavior"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/tap_action_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/blueClear"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_write_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_hint_address_to"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="21dp"
+            android:paddingTop="21dp"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"
+            android:textColor="@color/black60"
+            android:background="@color/mediumBlueGrey"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

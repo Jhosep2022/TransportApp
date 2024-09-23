@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorNegroClaro</color>
+    <color name="colorPrimaryDark">@color/colorNegro</color>
+    <color name="colorAccent">#286ef0</color>
+    <color name="whithe">#ffffff</color>
+    <color name="blueClear">#6c7f96</color>
+    <color name="succes">#26c281</color>
+    <color name="GRREN_FULL">#1e753c</color>
+    <color name="danger">#e35b5a</color>
+    <color name="CLEARINPUT">#d6d6d6</color>
+    <color name="DARK">#364150</color>
+    <color name="CLEAR">#55575b</color>
+    <color name="blanco">#fafafa</color>
+    <color name="amarillo">#ffff8d</color>
+
+
+    <color name="colorNegro">#000000</color>
+    <color name="colorNegroClaro">#1e1f23</color>
+    <color name="colorNegroLight">#28292e</color>
+    <color name="colorAzul">#286ef0</color>
+    <color name="colorAzulOscuro">#1565C0</color>
+    <color name="colorVerde">#11b719</color>
+    <color name="colorBlanco">#ffff</color>
+    <color name="colorFondo">#fafafa</color>
+    <color name="colorVacio">#00ffffff</color>
+    <color name="colorRojo">#D32F2F</color>
+    <color name="grisClarito">#e6e6e6</color>
+    <color name="colorNaranja">#F4511E</color>
+
+
+    <color name="black87">#DD000000</color>
+    <color name="black60">#99000000</color>
+
+    <color name="white87">#DDFFFFFF</color>
+    <color name="white60">#99FFFFFF</color>
+
+    <color name="mediumBlueGrey">#e0e0e0</color>
+    <color name="mediumDarkBlueGrey">#9ea7aa</color>
+
+    <color name="carSelected">#bbdefb</color>
+    <color name="transparent">#00000000</color>
+    <color name="semiTransparent">#20FFFFFF</color>
+
+</resources>

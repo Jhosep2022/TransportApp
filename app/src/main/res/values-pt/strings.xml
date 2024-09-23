@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_document">Carteira de identidade</string>
+    <string name="title_serial_auto">DOMÍNIO / PLACA</string>
+    <string name="title_activity_home"></string>
+    <string name="navigation_drawer_open">Abrir janela de navegação</string>
+    <string name="navigation_drawer_close">Fechar janela de navegação</string>
+    <string name="external_dir"></string>
+    <string name="action_settings">Sair</string>
+    <string name="uri_prompt">Cliente</string>
+    <string-array name="cabecera_tabla">
+        <item>data</item>
+        <item>Conceito</item>
+        <item>Valor a favor</item>
+        <item>Valor a pagar</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="action_profile">Perfil</string>
+    <string name="title_activity_travel_dialog"></string>
+    <string name="create_floating_widget"></string>
+    <string name="floating_widget_label">Remis</string>
+    <string name="floating_widget_details">Clique aqui para acessar ao aplicativo</string>
+    <string name="draw_other_app_permission_denied"></string>
+    <!-- Entry Sign in -->
+<string name="passager">Passageiro</string>
+<string name="driver">Motorista</string>
+<string name="sign_in">Cadastre-se</string>
+<string name="yes">Sim</string>
+<string name="no">Não</string>
+<string name="accept">Aceitar</string>
+<string name="reject">Recusar</string>
+<string name="ingresar">Ingresar</string>
+<string name="registrar">CRIAR UMA CONTA</string>
+<string name="usuario_email">Usuário ou E-mail</string>
+<string name="contraseña">Senha</string>
+<string name="validando">Aprovando ...</string>
+<string name="cargando">Carregando...</string>
+<string name="nueva_version">Nova versão disponível!</string>
+<string name="texto_version">Você deve atualizar para aproveitar os Novos Benefícios e Notícias!</string>
+<string name="fallo_general">Algo falhou, tente novamente</string>
+<string name="actualizar">Atualizar</string>
+<string name="version_actual">Versão Atual</string>
+<string name="usuario_contraseña_invalida">Usuário ou senha inválida</string>
+<string name="usuario_inactivo">Aló! Você já está registrado no sistema! Mas você ainda não foi ativado pela empresa!</string>
+
+    <!--Recuperar Contraseña-->
+<string name="texto_recovery_pass">Digite o e-mail com o qual você criou sua conta para recuperar sua senha</string>
+<string name="email">O email</string>
+<string name="recuperar_contraseña">¿Recuperar Senha?</string>
+<string name="recuperar">Recuperar</string>
+<string name="email_invalido">Digite um email válido</string>
+<string name="completar_campo">Você debe completar este campo</string>
+
+    <!--Registro-->
+<string name="registrar_pasajero">Registre-se como passageiro</string>
+<string name="registrar_chofer">Registre-se como motorista</string>
+<string name="nombre">Nome</string>
+<string name="apellido">Sobrenome</string>
+<string name="telefono">Telefone</string>
+<string name="repetir_contraseña">Repetir a senha</string>
+<string name="cuenta_costo">Conta de despesas</string>
+<string name="empresa">Companhia</string>
+<string name="centro_costo">Centro Custo</string>
+<string name="num_chofer">N. Motorista</string>
+<string name="vehiculo">Veículo</string>
+<string name="marca">Marca</string>
+<string name="modelo">Modelo</string>
+<string name="categoria">Categoria</string>
+<string name="dominio">Domínio / Placa</string>
+<string name="datos_personales">Dados pessoais</string>
+<string name="seguridad">Segurança</string>
+<string name="cuenta">Conta</string>
+<string name="email_error_registrado">Este email já foi registrado</string>
+<string name="chofer_error_registrado">Este número já foi registrado</string>
+<string name="registro_exitoso">Registro bem-sucedido</string>
+<string name="contraeseña_diferente">Ambas as senhas devem ser as mesmas</string>
+<string name="no_categorias_agregado">Não há categorias adicionadas</string>
+<string name="no_modelo_agregado">Nenhum modelo adicionado</string>
+<string name="no_marcas_agregada">Sem marcas adicionadas</string>
+<string name="cliente_registrado">Cliente registrado com sucesso</string>
+<string name="cliente_ya_registrado">Este cliente já existe. Por favor tente outro email</string>
+<string name="chofer_registrado">Motorista Registrado com Sucesso</string>
+<string name="no_centro_costo">Não sair , Centros de Custos desta conta</string>
+<string name="no_cuenta">Não sair, Conta desta empresa</string>
+<string name="registro_pasajero">Registro de Passageiros</string>
+<string name="registro_chofer">Registro de motorista</string>
+<string name="especificar_marca_categoria">Você deve especificar a marca e a categoria do seu veículo</string>
+<string name="pertenesco_a_una_empresa">Eu pertenço a uma empresa</string>
+<string name="seleccion_empresa">Você deve selecionar uma empresa</string>
+
+
+    <!--Home-->
+<string name="capturando_ubicacion">Procurando localizacao</string>
+<string name="captura_ubiacion_detenida">Parou a localizacao de lugar</string>
+<string name="origen_viaje">Origem da viagem</string>
+<string name="destino_viaje">Destino de viagem</string>
+<string name="origen_observaciones">Adicione dados adicionais de onde você está</string>
+<string name="fecha">Encontro</string>
+<string name="hora">Hora</string>
+<string name="solicitar_reserva">Solicitar Reserva</string>
+<string name="solicitar_viaje">Solicite uma Viagem</string>
+<string name="reservando">A reservar ...</string>
+<string name="seleccionar_origen">Você deve selecionar um local de origem</string>
+<string name="seleccionar_destino">Você deve selecionar um destino</string>
+<string name="seleccionar_fecha">Você deve selecionar uma data</string>
+<string name="seleccionar_hora">Você deve selecionar um horário</string>
+<string name="reserva_realizada">Reserva realizada</string>
+<string name="reserva_fallo">Ocorreu um erro ao fazer a reserva</string>
+<string name="informacion_viaje">Informaçao da viagem</string>
+<string name="informacion_chofer">Informaçao do Motorista</string>
+<string name="cancelar_viaje">Cancelar Viagem</string>
+<string name="no_viaje_curso">Nenhuma viagem em andamento</string>
+<string name="gps">GPS inativo</string>
+<string name="activar_gps">Ativar GPS</string>
+<string name="mensaje_gps">Você deve ativar o GPS para poder usar o aplicativo corretamente</string>
+<string name="espere_monto_viaje">Por favor, tente novamente em um momento, estamos recebendo o valor da viagem.</string>
+<string name="necesita_flete">Você precisa de frete?</string>
+<string name="numero_ayudantes">Número de ajudantes que você precisa</string>
+<string name="datos_vuelo">Dados do voo</string>
+<string name="hora_vuelo">Hora do voo</string>
+<string name="aeropuerto">Aeroporto</string>
+<string name="aerolinea">COMPANHIA aérea</string>
+<string name="numero_vuelo">N. do voo</string>
+<string name="bienvenido">Bem-vindo!</string>
+<string name="no_permiso_gps">A permissão de GPS precisa ser ativada</string>
+<string name="obteniendo_ubiación">Obtendo dados de localização, espere um momento!</string>
+
+
+    <!--Dialogo Travel-->
+<string name="aceptar">Aceitar</string>
+<string name="rechazar">Recusar</string>
+<string name="pasajeros">Passageiros</string>
+<string name="multi_origen">Origem múltipla</string>
+<string name="multi_destino">Multi Destination</string>
+<string name="viaje_aceptado_chofer">Viagem aceita pelo motorista, o motorista já está a caminho.</string>
+<string name="viaje_en_curso">A viagem já está em andamento, Boa viagem.</string>
+<string name="viaje_rechazado_chofer">A viagem foi rejeitada pelo motorista, você pode se inscrever novamente para outra viagem.</string>
+<string name="viaje_aceptado_agencia">Sua viagem foi aceita pela agência, um motorista será indicado imediatamente.</string>
+<string name="reserva_acaptada">Sua reserva foi aceita pela agência.</string>
+<string name="codigo_viaje">Código da viagem:</string>
+<string name="viaje_rechazado_agencia">A viagem foi rejeitada pela agência.</string>
+<string name="reserva_rechazada_agencia">A reserva foi rejeitada pela agência.</string>
+<string name="chofer_asignado">Um motorista foi indicado para sua viagem. Você deve aguardar a confirmação do motorista.</string>
+<string name="nombre_chofer">Nome do motorista:</string>
+<string name="viaje_solicitado">Viagem solicitada, confirmaremos sua solicitação em breve</string>
+    <!-- Menu -->
+
+<string name="mi_ubicacion">Minha localização</string>
+<string name="historial">História</string>
+<string name="tarjeta">Cartão</string>
+<string name="tarjeta_cliente">Cartão de Cliente</string>
+<string name="estado_de_cuenta">Estado de conta</string>
+<string name="notificaciones">Notificações</string>
+<string name="reservas">Reservas</string>
+<string name="chat">Bate-papo</string>
+<string name="reporte_falla">Falha no relatório</string>
+<string name="perfil">Perfil</string>
+<string name="salir">Sair</string>
+<string name="recargar">Recarregar</string>
+<string name="usuario">Usuário</string>
+<string name="frequent_questions">Perguntas frequentes</string>
+
+
+    <!-- HOME CHOFER-->
+<string name="viaje_de_calle">Viagem de rúa</string>
+<string name="esperar">Esperar</string>
+<string name="finalizar">Finalizar</string>
+<string name="vuelta">Retorno</string>
+<string name="iniciar">Começar</string>
+<string name="distancia_recorrida">Distância percorrida:</string>
+<string name="informacion">Informação:</string>
+<string name="informacion_origen">Informação da origem</string>
+<string name="informacion_destino">Informações do destino</string>
+<string name="informacion_cliente">Informação ao Cliente</string>
+<string name="servicio_activo">Serviço ativo</string>
+<string name="en_viaje">Em viagem</string>
+<string name="no_viaje_asignado">Você não possui uma viagem determinada</string>
+<string name="confirmar_viaje">Confirmar viagem</string>
+<string name="ida_km">Km de Ida</string>
+<string name="vuelta_km">Km de Retorno</string>
+<string name="tiempo_espera">Tempo de espera</string>
+<string name="flete">Frete</string>
+<string name="peaje">Pedágio</string>
+<string name="estacionamento">Estacionamento</string>
+<string name="firma">Empresa</string>
+<string name="efectivo">Dinheiro</string>
+<string name="monto_reservado">Valor Reservado</string>
+<string name="procesando_operacion">Aguarde alguns segundos, estamos processando a operação ...</string>
+<string name="viaje_enviando_aprobacion">Viagem enviada para sua aprovação</string>
+<string name="viaje_finalizado">Viagem finalizada</string>
+<string name="viaje_finalizado_previamente">A viagem já foi FINALIZADA Anteriormente</string>
+<string name="viaje_cancelado_previamento">A viagem foi CANCELADA Anteriormente</string>
+<string name="fallo_version_app">Ocorreu um erro ao verificar a versão do aplicativo</string>
+<string name="debe_activar_gps">Você deve ativar o GPS para continuar com esta opção</string>
+<string name="salir_app">Sair do aplicativo</string>
+<string name="mensaje_salir">Tem certeza que deseja sair do aplicativo?</string>
+<string name="si">Sim</string>
+<string name="no_informacion">Sem informação</string>
+<string name="informaión_reservada">Informação\n Reservada</string>
+<string name="ingresar_firma">Digite sua assinatura para finalizar a viagem</string>
+<string name="limpiar_firma">Limpar Assinatura</string>
+<string name="servicio_tracking_detenido">Parou a localizacao do lugar</string>
+<string name="existe_movimiento_tiempo">Á movimento, por favor verifique o tempo de espera</string>
+
+    <!-- ESTADO DE CUENTA-->
+<string name="total_viaje_cobrar">Viagem total a cobrar:</string>
+<string name="comision_pagar">Comissão a pagar:</string>
+<string name="saldo_favor_cuenta">Saldo na conta:</string>
+<string name="ultimos_movimientos_cuenta">Movimentos mais recentes da conta</string>
+<string name="cargando_informacion">Carregando informaçao</string>
+<string name="fecha_">Data</string>
+<string name="codigo_tarjeta">Código do cartão:</string>
+<string name="liquidacion">Liquidacao</string>
+<string name="adelanto">Avanço</string>
+<string name="pago_liquidacion">Pagamento de Liquidação</string>
+<string name="no_movimiento_cuenta">Você não tem movimentos de conta no momento.</string>
+
+    <!-- NOTIFIACIONES -->
+<string name="no_notificaciones">Você não tem notificações no momento.</string>
+<string name="notificacion_leida">Marcado como vista a notificacao número:</string>
+
+    <!-- HISTORIAL-->
+<string name="no_historial">Não tem história.</string>
+
+    <!-- PERFIL -->
+<string name="subir_foto">Carregar foto</string>
+<string name="dni">Carta de Identidade</string>
+<string name="actualizar_datos">Atualizar dados</string>
+<string name="informacion_actualizada">Informação atualizada</string>
+<string name="foto_actualizada">Foto atualizada</string>
+<string name="foto_error_actualizar">Erro ao atualizar a foto</string>
+<string name="no_foto">Você não selecionou uma foto</string>
+
+    <!--PAGO TARJETA-->
+<string name="mensaje_pago_tarjeta">Lembre-se de ter seu cartão presente, para que você possa fornecer as informações de pagamento necessárias. \ N \ nO processo será realizado com o MercadoPago \ n \ nO e-mail da pessoa que efetuou o pagamento é necessário.</string>
+<string name="mensaje_pago_tarjeta_top">Lembre-se de ter seu cartão presente para poder fornecer as informações de pagamento necessárias.</string>
+<string name="mensaje_pago_tarjeta_middle">O processo será realizado com</string>
+<string name="mensaje_pago_tarjeta_bottom">É necessário o e-mail da pessoa que efetuou o pagamento.</string>
+<string name="continuar_tarjeta">Pagar com cartão</string>
+<string name="total_pagar">Total a pagar</string>
+<string name="correo_mercado">E-mail da pessoa que efetuou o pagamento</string>
+<string name="pago_rechazado">Pagamento recusado por:</string>
+<string name="pago_rechazado_title">Pagamento Recusado</string>
+<string name="no_guardo_pago">Não foi possível salvar o pagamento, entre em contato com a empresa</string>
+<string name="pago_guardado">Pagamento salvo</string>
+<string name="no_internet">Sem conexão a internet</string>
+<string name="error_mercado_pago">Erro na configuração do mecanismo de pagamento.</string>
+<string name="mercado_pago">Mercadopago</string>
+<string name="placetopay">Lugar a pagar</string>
+
+
+    <!--RESERVAS-->
+<string name="no_reserva">Não possui reservas pelo momento</string>
+<string name="reserva_confirmada">Reserva confirmada</string>
+<string name="reserva_confirmada_por_la_agencia">Reserva confirmada pela agência</string>
+<string name="reserva_no_confirmada">Reserva não confirmada</string>
+<string name="reserva_no_confirmada_por_chofer">Aguardando confirmação do motorista</string>
+<string name="busca_cliente">Procurando cliente</string>
+<string name="reserva_espera">Aguardando aceitação</string>
+<string name="confirmar_reserva">Confirmar reserva</string>
+<string name="buscar_cliente">Pesquisar Cliente</string>
+<string name="reserva_cancelada">Reserva cancelada</string>
+<string name="viaje_aceptado">Viagem aceita</string>
+<string name="client_sin_chofer_text">Estamos à procura do motorista mais próximo</string>
+<string name="mapa">Mapa</string>
+
+<string name="reserva_chofer_asignado">Motorista indicado</string>
+<string name="reserva_sin_chofer_asignado">Sem motorista indicado</string>
+
+<string name="notif_channel_chofer_nuevo_viaje_titulo">Nova viagem</string>
+<string name="notif_channel_chofer_nuevo_viaje_descripcion">Informar de uma nova viagem</string>
+
+<string name="notif_channel_chofer_nueva_reserva_titulo">Nova reserva</string>
+<string name="notif_channel_chofer_nueva_reserva_descripcion">Relatar uma nova reserva</string>
+
+<string name="notif_channel_chofer_viaje_cancelado_titulo">Viagem cancelada</string>
+<string name="notif_channel_chofer_viaje_cancelado_descripcion">Informar que a viagem foi cancelada</string>
+
+<string name="notif_channel_chofer_reserva_cancelado_titulo">Reserva cancelada</string>
+<string name="notif_channel_chofer_reserva_cancelado_descripcion">Informar que a reserva foi cancelada</string>
+
+<string name="notif_channel_chofer_viaje_finalizado_titulo">Viagem concluída</string>
+<string name="notif_channel_chofer_viaje_finalizado_descripcion">Informar que a viagem foi concluída e aprovada pela agência</string>
+
+
+<string name="notif_channel_cliente_viaje_aceptado_por_agencia_titulo">A agência aceita a viagem</string>
+<string name="notif_channel_cliente_viaje_aceptado_por_agencia_descripcion">Relate que a agência aceitou a viagem</string>
+
+<string name="notif_channel_cliente_chofer_asignado_titulo">Motorista Indicado</string>
+<string name="notif_channel_cliente_chofer_asignado_descripcion">Relatórios que a agência atribuiu a um motorista</string>
+
+<string name="notif_channel_cliente_viaje_aceptado_por_chofer_titulo">Viagem aceita pelo motorista</string>
+<string name="notif_channel_cliente_viaje_aceptado_por_chofer_descripcion">Informar que o motorista aceitou a viagem</string>
+
+<string name="notif_channel_cliente_chofer_acercandose_titulo">Motorista se aproximando</string>
+<string name="notif_channel_cliente_chofer_acercandose_descripcion">Informar que o motorista está próximo</string>
+
+<string name="notif_channel_cliente_reserva_confirmada_titulo">Reserva Confirmada</string>
+<string name="notif_channel_cliente_reserva_confirmada_descripcion">As informações da reserva foram confirmadas pela agência</string>
+
+<string name="notif_channel_cliente_viaje_cancelado_por_chofer_titulo">Viagem cancelada pelo motorista</string>
+<string name="notif_channel_cliente_viaje_cancelado_por_chofer_descripcion">Relate que a viagem foi cancelada pelo motorista</string>
+
+<string name="notif_channel_cliente_viaje_cancelado_por_agencia_titulo">Viagem cancelada</string>
+<string name="notif_channel_cliente_viaje_cancelado_por_agencia_descripcion">Informar que a viagem foi cancelada</string>
+<string name="finalizando_viaje">Fim da viagem</string>
+<string name="procesando_pago">Processando o pagamento</string>
+<string name="espere_unos_segundos">Aguarde alguns segundos ...</string>
+<string name="price_and_km_modification_description">O preço pode variar devido a: modificação do itinerário, paradas intermediárias, pedágios e tempo de espera.</string>
+<string name="tiempo_llegada">Hora de chegada:</string>
+<string name="price_and_km_calculated_not_real">O preço e os kms são estimativos, os valores finais podem mudar.</string>
+<string name="title_activity_new_driver"></string>
+<string name="tab_1_datos_personales">Dados pessoais</string>
+<string name="tab_2_datos_vehiculo">Veículo</string>
+<string name="tab_3_documentacion_vehiculo">Documentação</string>
+<string name="siguiente">SEGUINTE</string>
+<string name="atras">ATRÁS</string>
+<string name="new_driver_photo_required">Todas as fotos são obrigatórias</string>
+
+<string name="new_driver_error_email_registered">O email com o qual você deseja registrar já está em uso. Troque por outro.</string>
+<string name="new_driver_error_driver_registered">O número do motorista que você digitou já foi usado. Troque por outro.</string>
+<string name="new_driver_error_photos">No entanto, ocorreu um erro ao carregar as fotos.</string>
+<string name="new_driver_error_user_get">No entanto, nao for possível obter o usuário indicado</string>
+<string name="new_driver_error_start_msg">No entanto, os seguintes erros foram encontrados:</string>
+<string name="new_driver_error_upload_user_photo">Erro ao carregar a foto do motorista.</string>
+<string name="new_driver_error_upload_user_licence_photo">Erro ao carregar a foto da carteira de motorista.</string>
+<string name="new_driver_error_upload_vehicle_photo">Erro ao carregar a foto do veículo.</string>
+<string name="new_driver_error_upload_chapa_photo">Erro ao carregar a foto da folha.</string>
+<string name="new_driver_error_upload_antecedentes_policiales_photo">Erro ao fazer upload da foto do registro policial.</string>
+<string name="new_driver_created_ok_msg">Agora você pode fazer login no sistema.</string>
+<string name="new_driver_created_validate_mail">Verifique sua conta de e-mail para validar a conta.</string>
+<string name="error">Erro</string>
+<string name="new_driver_registering">Registrando Driver</string>
+<string name="new_driver_saving_driver">Salvando dados do driver ...</string>
+<string name="new_driver_please_not_go_out">Por favor, não deixe esta tela até a conclusão; esta operação pode demorar alguns minutos, dependendo da velocidade da sua conexão.</string>
+<string name="new_driver_uploading_driver_photo">Carregando a foto do motorista ...</string>
+<string name="new_driver_uploading_driver_licence">Carregando a foto na tela …</string>
+<string name="new_driver_uploading_vehicle_photo">Carregando a foto do veículo ...</string>
+<string name="new_driver_uploading_chapa_photo">Carregar a foto da placa ...</string>
+<string name="new_driver_uploading_antecendetes_policiales_photo">Carregar foto da certidâo policial ...</string>
+<string name="cancelar">Cancelar</string>
+<string name="chofer_cerca_msg">O motorista está muito perto! Aproveite a viagem!</string>
+<string name="km_0">0 Km</string>
+<string name="set_puntuation_title">Dê uma pontuação ao motorista!</string>
+<string name="chofer_del_viaje">Motorista de viagem</string>
+<string name="origen">Origem</string>
+<string name="destino">Destino</string>
+<string name="enviar">Enviar</string>
+<string name="omitir">Pular</string>
+<string name="puntuacion_enviada">Pontuação enviada!</string>
+<string name="ok">OK</string>
+<string name="txt_hint_address_to">Onde você deseja ir?</string>
+<string name="mi_ubicacion_text">Minha localização</string>
+<string name="sin_nombre_calle">(sem nome)</string>
+<string name="cantidad_ayudantes">Número de ajudantes:</string>
+<string name="no_hay_resultado">Nenhum resultado</string>
+<string name="must_select_date_reserve">Você deve selecionar a data e a hora</string>
+<string name="solicitando_motivos_de_cancelacion">Solicitando motivos de cancelamento</string>
+<string name="iniciando_proceso_pago">Iniciando o processo de pagamento</string>
+
+<string name="place_to_pay_question_title_1">1. O que é o PlaceToPay?</string>
+<string name="place_to_pay_question_description_1">O PlacetoPay é a plataforma de pagamento eletrônico que [NOMBRE_COMERCIO] usa para processar on-line as transações geradas no aplicativo [NOMBRE_COMERCIO] com os métodos de pagamento ativados para esse fim.</string>
+
+<string name="place_to_pay_question_title_2">2. Como posso pagar?</string>
+<string name="place_to_pay_question_description_2">No aplicativo [NOMBRE_COMERCIO], você pode efetuar seu pagamento com os meios habilitados para esse fim. Você, de acordo com as opções de pagamento escolhidas pelo comerciante, poderá pagar através de pagamentos com Diners, Discover, Visa e MasterCard; de todos os bancos com pagamento corrente e diferido, apenas cartões emitidos pelo Banco Pichincha, Diners, Loja, BGR e Manabí.</string>
+
+<string name="place_to_pay_question_title_3">3. É seguro inserir meus dados bancários nesta aplicação?</string>
+<string name="place_to_pay_question_description_3">Para proteger seus dados, [TRADE_NAME] delega ao PlacetoPay a captura de informações confidenciais. Nossa plataforma de pagamento atende aos mais altos padrões exigidos pelo padrão internacional PCI DSS para segurança nas transações com cartão de crédito. Ele também possui um certificado de segurança SSL emitido pela GeoTrust, uma empresa da Verisign, que garante comunicações seguras criptografando todos os dados de e para o site; Dessa forma, você pode se sentir seguro ao inserir as informações do cartão.
+
+O PlacetoPay também possui monitoramento constante do McAfee Secure e assinatura de mensagens eletrônicas com o Certicámara.
+
+PlacetoPay é uma marca da empresa colombiana EGM Ingeniería Sin Fronteras S.A.S.
+</string>
+
+<string name="place_to_pay_question_title_4">4. Posso fazer o pagamento a qualquer dia e a qualquer momento?</string>
+<string name="place_to_pay_question_description_4">Sim, em [TRADE_NAME] você pode fazer suas compras on-line 7 dias por semana, as 24 horas por dia com apenas um clique de distância.</string>
+
+<string name="place_to_pay_question_title_5">5. Posso alterar o método de pagamento?</string>
+<string name="place_to_pay_question_description_5">Se você ainda não concluiu seu pagamento, retorne à etapa inicial e escolha a forma de pagamento preferida. Depois que a compra é concluída, não é possível alterar a forma de pagamento.</string>
+
+<string name="place_to_pay_question_title_6">6. Pagar eletronicamente tem algum valor para mim como comprador?</string>
+<string name="place_to_pay_question_description_6">Não, pagamentos eletrônicos feitos através do PlacetoPay não geram custos adicionais para o comprador.</string>
+
+<string name="place_to_pay_question_title_7">7. O que devo fazer se minha transação não terminar?</string>
+<string name="place_to_pay_question_description_7">Na primeira instância, verifique se um e-mail de confirmação de pagamento chegou à sua conta de e-mail (aquele registrado no momento do pagamento); se você não o recebeu, entre em contato com [MAIL_COMERCIO] para confirmar o status do transação.
+
+No caso de que sua transação ter sido recusada, você deve verificar se as informações da conta são válidas e se estão ativadas para compras não presenciais, e se você tem um espaço ou saldo disponível. Se depois disso você continuar com a declinação, entre em contato com [TRADE_NAME]. Por fim, você pode enviar sua solicitação para servicioposventa@placetopay.ec.
+</string>
+
+<string name="place_to_pay_question_title_8">8. O que devo fazer se não receber comprovante de pagamento?</string>
+<string name="place_to_pay_question_description_8">Para cada transação aprovada pelo PlacetoPay, você receberá um comprovante de pagamento com a referência da compra no endereço de e-mail que você indicou quando pagou. Se você não o receber, entre em contato com o e-mail [MAIL_COMERCIO], para solicitar o recebimento do recibo no mesmo endereço de e-mail registrado no momento do pagamento. Por fim, você pode enviar sua solicitação para servicioposventa@placetopay.ec.</string>
+
+<string name="place_to_pay_question_title_9">9. Não recebi o serviço que comprei, o que devo fazer?</string>
+<string name="place_to_pay_question_description_9">Você deve verificar se a transação foi bem-sucedida no seu extrato bancário. Nesse caso, entre em contato com [TRADE_NAME].</string>
+
+<string name="place_to_pay_question_title_10">Termos e Condições</string>
+<string name="place_to_pay_question_description_10"></string>
+
+<string name="pagado">Pago</string>
+<string name="estado_de_pago">Status do pagamento:</string>
+
+<string name="place_to_pay_status_aproved">Aprovado</string>
+<string name="place_to_pay_status_failed">Falhou</string>
+<string name="place_to_pay_status_rejected">Rejeitado</string>
+<string name="place_to_pay_status_aproved_partial">Parcialmente aprovado</string>
+<string name="place_to_pay_status_expired">Expirado</string>
+<string name="place_to_pay_status_pending">Pendente</string>
+<string name="place_to_pay_status_refunded">Devolucao</string>
+<string name="forma_de_pago">Forma de pagamento:</string>
+
+<string name="solicitar_pago_con_tarjeta">Solicitação de pagamento com cartão</string>
+<string name="mensaje_solicitar_pago_con_tarjeta_text_top">Ao pressionar o botão, o passageiro terá a possibilidade de pagar pela viagem em sua aplicação.</string>
+<string name="mensaje_solicitar_pago_con_tarjeta_text_middle">Você precisará aguardar o pagamento terminar e só poderá continuar.</string>
+<string name="mensaje_solicitar_pago_con_tarjeta_text_bottom">Por favor, não saia desta tela até que a operação esteja concluída.</string>
+<string name="proceso_de_pago_title">Processo de pagamento</string>
+<string name="proceso_de_pago_body">O cliente está pagando, por favor não saia desta tela.</string>
+<string name="error_call_client_payment">Erro ao iniciar o processo de pagamento.</string>
+<string name="error_call_finish_client_payment">Erro no final do processo de pagamento.</string>
+<string name="call_finish_client_payment_cancelled">A solicitação de pagamento foi cancelada com sucesso.</string>
+<string name="proceso_de_pago_con_tarjeta_cliente_finalizo">O cliente concluiu o processo de pagamento. Aguarde alguns segundos.</string>
+<string name="debe_realizar_pago">Por favor faça o pagamento</string>
+<string name="tarjeta_no_valida">Cartão inválido</string>
+<string name="transaccion_aprobada">A transação foi aprovada</string>
+<string name="transaccion_aprobada_title">Transação aprovada!</string>
+<string name="agregar_nombre_valido">Você deve adicionar um nome válido.</string>
+<string name="agregar_apellido_valido">Você deve adicionar um sobrenome válido.</string>
+<string name="agencia_debe_conf_gmap">A AGÊNCIA DEVE CONFIGURAR A API DO GOOGLE MAPS!</string>
+<string name="error_guardar_firma">Erro ao salvar a assinatura</string>
+<string name="por_favor_intente_nuevamente">Por favor, tente novamente.</string>
+<string name="motor_de_pago_no_configurado">MOTOR DE PAGAMENTO NÃO CONFIGURADO, A AGÊNCIA DEVE CONFIGURÁ-LO!</string>
+
+<string name="abrir_app">Aplicação aberta</string>
+<string name="seleccionar_direccion">Selecionar endereço</string>
+<string name="seleccionar_origen_title">Selecionar Origem</string>
+<string name="seleccionar_destino_title">Selecionar destino</string>
+<string name="fija_ubicacion_en_mapa">Defina a localização no mapa</string>
+<string name="debe_ingresar_una_direccion_valida">Você deve inserir um endereço válido</string>
+<string name="viaje_por_hora">Viagem por hora:</string>
+<string name="tiempo_total">Tempo total: [TIME]</string>
+
+<string name="prefinalizar_viaje">PREFINALIZAR A VIAGEM</string>
+<string name="viaje_siendo_aprobado_por_web">Sua viagem está sendo aprovada pelo operador da web</string>
+<string name="viaje_minimo">Viagem mínima</string>
+<string name="origin_pac_msg">* O preço inclui a distância até a origem acordada.</string>
+<string name="metodo_de_pago_recargo">O método de pagamento selecionado tem uma sobretaxa de [VALUE]%</string>
+<string name="error_pago_cliente">Erro de pagamento do cliente</string>
+<string name="error_pago_cliente_description">O cliente não conseguiu pagar o valor, tente novamente ou use outro meio de pagamento.</string>
+<string name="cliente_iniciado_pago">O cliente iniciou o processo de pagamento. Aguarde o término.</string>
+<string name="cliente_esta_pagando">O cliente está pagando</string>
+<string name="no_salga_pantalla">Por favor, não saia desta tela</string>
+<string name="cancelar_pago_cliente_title">CANCELAR PAGAMENTO NO CLIENTE</string>
+<string name="problema_conexion_internet">Problema de conexão com a Internet!</string>
+<string name="verificar">Verificar</string>
+<string name="finalizar_viaje_esta_seguro">Tem certeza de que deseja terminar a viagem?</string>
+<string name="set_retornar_msg">Pressione \'Return \' Confirmar retorno da viagem!</string>
+<string name="retornar">Retomar</string>
+<string name="firma_guardada">Assinatura salva</string>
+<string name="enviando_viaje">Enviando viagem</string>
+<string name="viaje_solicitado_title">Viagem solicitada!</string>
+<string name="ya_posee_viaje">Você já tem uma viagem atribuída</string>
+<string name="verificando_viaje">Verificando viagem</string>
+<string name="viaje_cancelado">Viagem cancelada!</string>
+<string name="viaje_cancelado_por_cliente">Viagem cancelada pelo cliente!</string>
+<string name="viaje_finalizado_desde_web">Viagem concluída a partir da Web, pelo operador!</string>
+<string name="confirmar">confirme</string>
+<string name="espera_desactivada">Esperar Desativada</string>
+<string name="espera_activada">Espera ativada</string>
+<string name="pausar">PAUSA</string>
+
+<string name="tienes_x_reservas">Você tem ([QTY]) reservas!</string>
+<string name="enviado">Ya foi enviado</string>
+<string name="viaje_rechazado">VIAGEM REJEITADA!</string>
+<string name="vuelta_activada">Retorno ativado!</string>
+<string name="error_debe_aproximarse_mas">Você não pode iniciar esta jornada, deve se aproximar ao ponto de origem</string>
+<string name="cargando_pago">Carregando pagamento</string>
+<string name="problema_internet">Problema de conexão com a Internet!</string>
+<string name="error_intente_nuevamente">Um erro ocorreu. Por favor, tente novamente.</string>
+<string name="redireccionando_a_place_to_pay">Redirecionando para PlaceToPay</string>
+<string name="error_pagar_place_to_pay">Erro ao tentar pagar com PlaceToPay</string>
+<string name="referencia">\ nReferência: </string>
+<string name="error_en_el_pago">erro de pagamento</string>
+<string name="error_en_el_pago_msg">Erro de pagamento, tente mais uma vez e, se ainda falhar, use outro método de pagamento. \ nObrigado.</string>
+<string name="error_procesar_place_to_pay">Erro ao processar o pagamento com PlaceToPay. Tente novamente. Se continuar a falhar, use outro método de pagamento</string>
+<string name="pago_rechazado_retry">Tente mais uma vez e, se falhar, use outro cartão.</string>
+<string name="intente_con_otra_tarjeta">Por favor, tente outro cartão</string>
+<string name="codigo_autorizacion">Código de autorização: </string>
+<string name="pago_pendiente">Pagamento pendente!</string>
+<string name="pago_pendiente_msg">O pagamento está com aprovação pendente</string>
+<string name="metodo_de_pago">Forma de pagamento: </string>
+<string name="id_de_referencia_es">A referência da Carteira de identidade é: </string>
+<string name="intento_n">. Tente o número </string>
+<string name="de">do </string>
+<string name="finalizando_pago">Finalizando pagamento</string>
+<string name="iniciando_proceso_de_pago">Iniciando o processo de pagamento</string>
+<string name="error_redirigir_a_pago">Ocorreu um erro ao redirecionar para a página de saida</string>
+<string name="no_existe_url">Não á URL para efetuar o pagamento</string>
+<string name="liquidado">Liquidado!</string>
+<string name="distancia_aplicacion">Distância do aplicativo: </string>
+<string name="distancia_presupuestada">Distância orçada: </string>
+<string name="km">Km </string>
+<string name="listado_de_pasajeros">Lista de Passageiros: </string>
+<string name="adultos">Adultos: </string>
+<string name="ninios">Crianças: </string>
+<string name="bebes">Bebês: </string>
+<string name="movilidad_reducida">Mobilidade reduzida: </string>
+<string name="redirect_terminos_y_condiciones">Redirecionando para termos e condições</string>
+<string name="aceptado">Aceito</string>
+<string name="chofer_en_camino">Motorista a caminho</string>
+<string name="en_curso">No curso</string>
+<string name="permiso_denegado">Licenca denegada</string>
+<string name="calculando">Calculando...</string>
+<string name="error_calcular_distancia">Ocorreu um erro ao calcular a distância. Por favor, tente novamente</string>
+<string name="s_n">S / N</string>
+<string name="enviando_solicitud">Solicitação enviada</string>
+<string name="reserva_solicitada">Reserva solicitada!</string>
+<string name="buscando_chofer">Procurando um motorista ...</string>
+<string name="agencia_sin_motivos_cancelacion">Agência sem motivos para cancelamento configurados</string>
+<string name="seleccione_un_motivo">Você deve selecionar um motivo</string>
+<string name="tiempo_de_llegada_del_chofer">Hora de chegada do motorista: </string>
+<string name="tipo_de_vehiculo">Tipo de Veículo</string>
+<string name="cargando_modelos">Carregando modelos</string>
+<string name="actualizando">Atualizando</string>
+<string name="espere">Esperar...</string>
+<string name="actualizando_foto">Atualizando foto</string>
+<string name="tiene_una_nueva_notificacion">Você tem uma nova notificação</string>
+<string name="notif_nueva_reserva">Nova reserva</string>
+<string name="notif_nuevo_viaje">Nova viagem</string>
+<string name="notif_reserva_cancelada">Reserva cancelada</string>
+<string name="notif_viaje_aceptado_por_agencia">Viagem aceita pela agência</string>
+<string name="notif_viaje_cancelado">A viagem foi cancelada</string>
+<string name="notif_chofer_asignado">Tem um motorista indicado</string>
+<string name="notif_chofer_cerca">O motorista está muito perto! Aproveite a viagem!</string>
+<string name="notif_reserva_aceptada_por_ag">Sua reserva foi aceita pela empresa</string>
+<string name="notif_chofer_acepta_viaje">O motorista aceitou a viagem</string>
+<string name="informacion_del_viaje">Informaçao da viagem</string>
+<string name="indique_motivo_cancela_viaje">Indique o motivo do cancelamento da viagem</string>
+<string name="reportar_falla">Informar erro</string>
+<string name="reportar">Informar</string>
+<string name="atencion">¡ATENÇÃO!</string>
+<string name="distancia_recorrida_menor_distancia_presupuestada">A distância percorrida calculada pelo aplicativo é significativamente menor que a distância orçada</string>
+<string name="cual_desea_utilizar">Qual você prefere usar?</string>
+<string name="no_se_cargo_informacion">Nenhuma informação foi carregada</string>
+<string name="proximamente">Em breve</string>
+<string name="foto_del_conductor">FOTO DO MOTORISTA</string>
+<string name="obligatorio">* Requerido</string>
+<string name="licencia_del_conductor">CARTEIRA DE HABILITACAO</string>
+<string name="foto_del_vehiculo">FOTO DO VEÍCULO</string>
+<string name="foto_chapa_del_vehiculo">FOTO DA PLACA DO VEÍCULO</string>
+<string name="certificado_antecedentes_policiales">CERTIDAO DE OCORRENCIAS POLICIAIS</string>
+<string name="quiero_un_auto_ahora">Eu quero um carro agora</string>
+<string name="reserva_futura">Reserva Futura</string>
+<string name="mi_ubicaci_n">Minha localização</string>
+<string name="cantidad_de_ayudantes_7">Número de ajudantes: 7</string>
+<string name="ver_datos">Veja informacoes</string>
+<string name="tiempo_transcurrido">Tempo transcorrido:</string>
+<string name="funcion_desactivada_por_la_empresa">Função desativada pela empresa</string>
+<string name="titulo">Título</string>
+<string name="contenido">conteúdo</string>
+<string name="no_procesado">Não processado</string>
+<string name="tipo_operacion">tipo de operação</string>
+<string name="articulo">Artigo</string>
+<string name="c_mo_desea_ingresar_el_destino">Como você deseja inserir o destino?</string>
+<string name="cl_sica_recomendada">Clássica (recomendada)</string>
+<string name="ingresar_direccion_exacta">Voce debe inserir o endereco exato e será validado o que existe no mapa</string>
+<string name="describir_direccion">Indicar Endereço</string>
+<string name="puede_ingresar_direccion_sin_validar">Você pode inserir o endereço sem precisar validá-lo no mapa.</string>
+<string name="viaje_ahora">Viage agora</string>
+<string name="de_sin_espacios">De</string>
+<string name="a">À</string>
+<string name="piso">Chão:</string>
+<string name="flete_con_dos_puntos">Frete:</string>
+<string name="lote">Muito:</string>
+<string name="dpto">Departamento:</string>
+<string name="espera">No aguardo:</string>
+<string name="retorno">Retorno:</string>
+<string name="mensaje">Mensagem</string>
+
+    <string name="viaje_cancelado_sin_autos">Não há veículos disponíveis. Por favor tente mais tarde</string>
+    <string name="ingresar_con_facebook">Ingresar con Facebook</string>
+    <string name="hola">Olá</string>
+    <string name="user_no_not_exist">Usuário não existe</string>
+    <string name="new_driver_created_with_social_id">Assim que a empresa habilitar, você poderá acessar o aplicativo. Muito obrigado.</string>
+    <string name="acepto_condiciones"><u>Aceita termos e Condições</u></string>
+    <string name="servicio_inactivo">Servicio Inactivo</string>
+    <string name="fotografia_usuario">Fotografía del usuario</string>
+
+    <string name="tipo_servicio">Tipo de Servicio que brindará</string>
+    <string name="chat_text_default">Escreva sua mensagem aqui</string>
+    <string name="chat_message_received_title">Mensagem de administrador</string>
+    <string name="message_not_sent">Mensaje no enviado. El canal del comunicación está cerrado</string>
+
+</resources>

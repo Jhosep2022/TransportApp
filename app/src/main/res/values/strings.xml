@@ -1,0 +1,638 @@
+<resources>
+
+    <string name="title_document">ID / Identity Card</string>
+    <string name="title_serial_auto">LICENCE / PLATE</string>
+    <string name="title_activity_home"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="external_dir">GetSignature</string>
+    <string name="action_settings">Exit</string>
+
+    <string name="uri_prompt">Client</string>
+    <string-array name="uri_arrays">
+        <item>as_remis_web</item>
+        <item>universal</item>
+        <item>5estrellas</item>
+        <item>antonella</item>
+        <item>byb</item>
+        <item>carrasco</item>
+        <item>demo</item>
+        <item>intercar</item>
+        <item>firstclass</item>
+        <item>kollcar</item>
+        <item>laespañola</item>
+        <item>patagonia</item>
+        <item>premyscar</item>
+        <item>prestige</item>
+        <item>red24</item>
+        <item>reminor</item>
+        <item>remisat</item>
+        <item>remisesArg</item>
+        <item>roybal</item>
+        <item>talcahuano</item>
+        <item>talcahuano2</item>
+        <item>transtravel</item>
+        <item>turismocentro</item>
+        <item>urbana</item>
+        <item>viapanam</item>
+        <item>vlz</item>
+        <item>developer</item>
+
+
+    </string-array>
+
+    <!--Array con los valores de la cabecera de la tabla-->
+    <string-array name="cabecera_tabla">
+        <item>Date</item>
+        <item>Concept</item>
+        <item>Amount in Favor</item>
+        <item>Amount to Pay</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_profile">Profile</string>
+    <string name="title_activity_travel_dialog">TravelDialogActivity</string>
+
+    <string name="create_floating_widget">Create Floating Widget</string>
+    <string name="floating_widget_label">Asremis</string>
+    <string name="floating_widget_details">Press here to access app</string>
+    <string name="draw_other_app_permission_denied">Draw over other app permission not available. App won\'t work without permission. Please try again.</string>
+
+
+    <!-- Entry Sign in -->
+    <string name="passager">Passenger</string>
+    <string name="driver">Driver</string>
+    <string name="sign_in">Register</string>
+
+    <!-- Dialog travel -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+
+
+    <!--Login-->
+    <string name="ingresar">Log in</string>
+    <string name="registrar">New Account</string>
+    <string name="usuario_email">User or Email</string>
+    <string name="contraseña">Password</string>
+    <string name="validando">Validating...</string>
+    <string name="cargando">Loading...</string>
+    <string name="nueva_version">New Version Available !</string>
+    <string name="texto_version">You must update to have new benefits and news!</string>
+    <string name="fallo_general">Something wrong, please try again</string>
+    <string name="actualizar">Update</string>
+    <string name="version_actual">Actual version</string>
+    <string name="usuario_contraseña_invalida">Invalid User or password</string>
+    <string name="usuario_inactivo">Hello! You are already logged! But you have not been activated by the company!</string>
+
+    <!--Recuperar Contraseña-->
+    <string name="texto_recovery_pass">Please, login with your email for recovering password</string>
+    <string name="email">Email</string>
+    <string name="recuperar_contraseña">¿Recover Password?</string>
+    <string name="recuperar">Recover</string>
+    <string name="email_invalido">Enter a valid email</string>
+    <string name="completar_campo">Required field</string>
+
+    <!--Registro-->
+    <string name="registrar_pasajero">Sign in as Passenger</string>
+    <string name="registrar_chofer">Sign in as Driver</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Last Name</string>
+    <string name="telefono">Phone</string>
+    <string name="repetir_contraseña">Retry password</string>
+    <string name="cuenta_costo">Account - C- Center</string>
+    <string name="empresa">Company</string>
+    <string name="centro_costo">Cost Center</string>
+    <string name="num_chofer">N. Driver</string>
+    <string name="vehiculo">Vehicle</string>
+    <string name="marca">Brand</string>
+    <string name="modelo">Model</string>
+    <string name="categoria">Category</string>
+    <string name="dominio">Licence Plate</string>
+    <string name="datos_personales">Personal information</string>
+    <string name="seguridad">Security</string>
+    <string name="cuenta">Account</string>
+    <string name="email_error_registrado">This email was already used</string>
+    <string name="chofer_error_registrado">This number was already used</string>
+    <string name="registro_exitoso">Successful registration</string>
+    <string name="contraeseña_diferente">Both password must be the same</string>
+    <string name="no_categorias_agregado">No categories added </string>
+    <string name="no_modelo_agregado">No models added</string>
+    <string name="no_marcas_agregada">No brands added</string>
+    <string name="cliente_registrado">Client Registered Successfully</string>
+    <string name="cliente_ya_registrado">This client already exists. Please, try another email</string>
+    <string name="chofer_registrado">Driver registered Successfully</string>
+    <string name="no_centro_costo">No Center of cost in this account</string>
+    <string name="no_cuenta">No account in this company</string>
+    <string name="registro_pasajero">Passenger registration</string>
+    <string name="registro_chofer">Driver Registration</string>
+    <string name="especificar_marca_categoria">You must specify your vehicle brand and category</string>
+    <string name="pertenesco_a_una_empresa">I belong to a company</string>
+    <string name="seleccion_empresa">You must select a company</string>
+
+
+    <!--Home-->
+    <string name="capturando_ubicacion"> Capturing location</string>
+    <string name="captura_ubiacion_detenida">Location has been stopped</string>
+    <string name="origen_viaje">Travel origin</string>
+    <string name="destino_viaje">Travel destiny</string>
+    <string name="origen_observaciones">Add additional data where you stay</string>
+    <string name="fecha">Date</string>
+    <string name="hora">Hour</string>
+    <string name="solicitar_reserva">Request reservation</string>
+    <string name="solicitar_viaje">Request travel</string>
+    <string name="reservando">Reserving...</string>
+    <string name="seleccionar_origen">You must select an origin place</string>
+    <string name="seleccionar_destino">You must select a destiny place</string>
+    <string name="seleccionar_fecha">You must select a date</string>
+    <string name="seleccionar_hora">You must select a time</string>
+    <string name="reserva_realizada">Reservation Done</string>
+    <string name="reserva_fallo">Something wrong in requesting reservation</string>
+    <string name="informacion_viaje">Travel Information</string>
+    <string name="informacion_chofer">Driver Information</string>
+    <string name="cancelar_viaje">Cancel Travel</string>
+    <string name="no_viaje_curso">No travel in progress</string>
+    <string name="gps">GPS Inactive</string>
+    <string name="activar_gps">Activate GPS</string>
+    <string name="mensaje_gps">You must activate the GPS to be able to use the application correctly</string>
+    <string name="espere_monto_viaje">Try again in a moment, we are getting the travel amount.</string>
+    <string name="necesita_flete">Need freight?</string>
+    <string name="numero_ayudantes">Helper you need</string>
+    <string name="datos_vuelo">Fligth Data</string>
+    <string name="hora_vuelo">Fligth time</string>
+    <string name="aeropuerto">Airport</string>
+    <string name="aerolinea">Airline</string>
+    <string name="numero_vuelo">Fligth Nº</string>
+    <string name="bienvenido">welcome!</string>
+    <string name="no_permiso_gps"> GPS permission needs to be activated</string>
+    <string name="obteniendo_ubiación">Getting location data, wait a moment!</string>
+
+
+    <!--Dialogo Travel-->
+    <string name="aceptar">Accept</string>
+    <string name="rechazar">Reject</string>
+    <string name="pasajeros">Passengers</string>
+    <string name="multi_origen">Multi Origin</string>
+    <string name="multi_destino">Multi Destiny</string>
+    <string name="viaje_aceptado_chofer">The travel has been accepted, the driver is already on the way.</string>
+    <string name="viaje_en_curso">The travel is already in progress, Happy travel.</string>
+    <string name="viaje_rechazado_chofer">The travel has been rejected by the driver, you can request another travel.</string>
+    <string name="viaje_aceptado_agencia">Your travel has been accepted by the agency, a driver will be assigned immediately.</string>
+    <string name="reserva_acaptada">Your reservation has been accepted by agency.</string>
+    <string name="codigo_viaje">travel code:</string>
+    <string name="viaje_rechazado_agencia">travel has been rejected by agency.</string>
+    <string name="reserva_rechazada_agencia">Reservation has been rejected by agency.</string>
+    <string name="chofer_asignado">A driver has been assigned to your travel, you must wait confirmation from driver.</string>
+    <string name="nombre_chofer">Driver name:</string>
+    <string name="viaje_solicitado">Travel requested, we confirm your request shortly</string>
+    <!-- Menu -->
+
+    <string name="mi_ubicacion">My location</string>
+    <string name="historial">History</string>
+    <string name="tarjeta">Card</string>
+    <string name="tarjeta_cliente">Client Card</string>
+    <string name="estado_de_cuenta">Account Status</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="reservas">Reservations</string>
+    <string name="chat">Chat</string>
+    <string name="reporte_falla">Report failure</string>
+    <string name="perfil">Profile</string>
+    <string name="salir">Exit</string>
+    <string name="recargar">Reload</string>
+    <string name="usuario">User</string>
+    <string name="frequent_questions">FAQs</string>
+
+
+    <!-- HOME CHOFER-->
+    <string name="viaje_de_calle">Street travel</string>
+    <string name="esperar">Wait</string>
+    <string name="finalizar">Finalize</string>
+    <string name="vuelta">Go back</string>
+    <string name="iniciar">Start</string>
+    <string name="distancia_recorrida">Distance traveled:</string>
+    <string name="informacion">Information:</string>
+    <string name="informacion_origen">Origin information</string>
+    <string name="informacion_destino">Destination information</string>
+    <string name="informacion_cliente">Client information</string>
+    <string name="servicio_activo">Service Active</string>
+    <string name="en_viaje">In Travel</string>
+    <string name="no_viaje_asignado">You do not have an assigned travel</string>
+    <string name="confirmar_viaje">Confirm Travel</string>
+    <string name="ida_km">Going Km</string>
+    <string name="vuelta_km">Back Km</string>
+    <string name="tiempo_espera">Waiting Time</string>
+    <string name="flete">Freight</string>
+    <string name="peaje">Toll</string>
+    <string name="estacionamento">Parking</string>
+    <string name="firma">Sign</string>
+    <string name="efectivo">Cash</string>
+    <string name="monto_reservado">Reserved amount</string>
+    <string name="procesando_operacion">Wait a second, we are processing the operation...</string>
+    <string name="viaje_enviando_aprobacion">Travel sent for approbal</string>
+    <string name="viaje_finalizado">Finished Travel</string>
+    <string name="viaje_finalizado_previamente">The travel has been finished previously</string>
+    <string name="viaje_cancelado_previamento">The travel has been canceled previously</string>
+    <string name="fallo_version_app">We had some problems when checking version</string>
+    <string name="debe_activar_gps">You must activate the GPS to continue with this option</string>
+    <string name="salir_app">Exit App</string>
+    <string name="mensaje_salir">Are you sure to exit the application?</string>
+    <string name="si">Yes</string>
+    <string name="no_informacion">Without information</string>
+    <string name="informaión_reservada">Reserved\n Information</string>
+    <string name="ingresar_firma">Enter your signature to end the trip</string>
+    <string name="limpiar_firma">Delete signature</string>
+    <string name="servicio_tracking_detenido">Location signature has been stopped</string>
+    <string name="existe_movimiento_tiempo">Movement detected, please check the waiting time</string>
+
+    <!-- ESTADO DE CUENTA-->
+    <string name="total_viaje_cobrar">Total Trip to Charge:</string>
+    <string name="comision_pagar">Commission to Pay:</string>
+    <string name="saldo_favor_cuenta">Balance in Account:</string>
+    <string name="ultimos_movimientos_cuenta">Latest Account Movements</string>
+    <string name="cargando_informacion">Loading information...</string>
+    <string name="fecha_">Date:</string>
+    <string name="codigo_tarjeta">Card code:</string>
+    <string name="liquidacion">Settlement</string>
+    <string name="adelanto">Advancement</string>
+    <string name="pago_liquidacion">Settlement Payment</string>
+    <string name="no_movimiento_cuenta">No account movements at this time.</string>
+
+    <!-- NOTIFIACIONES -->
+    <string name="no_notificaciones">You do not have notification.</string>
+    <string name="notificacion_leida">Notification number marked as view: </string>
+
+    <!-- HISTORIAL-->
+    <string name="no_historial">No history.</string>
+
+    <!-- PERFIL -->
+    <string name="subir_foto">Upload Photo</string>
+    <string name="dni">ID / Identity card</string>
+    <string name="actualizar_datos">Update Data</string>
+    <string name="informacion_actualizada">Updated Information</string>
+    <string name="foto_actualizada">Updated Photo</string>
+    <string name="foto_error_actualizar">Updating Photo Error</string>
+    <string name="no_foto">You did not selected photo</string>
+
+    <!--PAGO TARJETA-->
+    <string name="mensaje_pago_tarjeta">Remember to have your card present, so that you can supply the required payment information. \n\nThe process will be carried out with MercadoPago \n \nThe email of the person making the payment is required.</string>
+    <string name="mensaje_pago_tarjeta_top">Remember to have your card present so that you can supply the required payment information.</string>
+    <string name="mensaje_pago_tarjeta_middle">The process will be carried out with </string>
+    <string name="mensaje_pago_tarjeta_bottom">The email of the person making the payment is required.</string>
+    <string name="continuar_tarjeta">Pay with Card</string>
+    <string name="total_pagar">Total Pay</string>
+    <string name="correo_mercado">Email of the person who make the payment</string>
+    <string name="pago_rechazado">Rejected payment:</string>
+    <string name="pago_rechazado_title">Rejected payment</string>
+    <string name="no_guardo_pago">The payment could not be saved, contact the company</string>
+    <string name="pago_guardado">Payment has been saved</string>
+    <string name="no_internet">You do not have internet connection</string>
+    <string name="error_mercado_pago">Error with payment engine configuration.</string>
+    <string name="mercado_pago">Mercadopago</string>
+    <string name="placetopay">Place To Pay</string>
+
+
+    <!--RESERVAS-->
+    <string name="no_reserva">You do not have reservation at the momment</string>
+    <string name="reserva_confirmada">Reservation Confirmed</string>
+    <string name="reserva_confirmada_por_la_agencia">Reservation Confirmed by agency</string>
+    <string name="reserva_no_confirmada">Reservation Not Confirmed</string>
+    <string name="reserva_no_confirmada_por_chofer">Waiting confirmation fo the driver</string>
+    <string name="busca_cliente">Going for client</string>
+    <string name="reserva_espera">Awaiting acceptance</string>
+    <string name="confirmar_reserva">Confirm Reserve</string>
+    <string name="buscar_cliente">Look for Client</string>
+    <string name="reserva_cancelada">Reservation Canceled</string>
+    <string name="viaje_aceptado">Travel accepted</string>
+    <string name="client_sin_chofer_text">We are looking for the nearest driver</string>
+    <string name="mapa">Map</string>
+
+    <string name="reserva_chofer_asignado">Drived assigned</string>
+    <string name="reserva_sin_chofer_asignado">Without driver assigned</string>
+
+    <string name="notif_channel_chofer_nuevo_viaje_titulo">New Travel</string>
+    <string name="notif_channel_chofer_nuevo_viaje_descripcion">Report a new travel</string>
+
+    <string name="notif_channel_chofer_nueva_reserva_titulo">New Reservation</string>
+    <string name="notif_channel_chofer_nueva_reserva_descripcion">Report a new reservation</string>
+
+    <string name="notif_channel_chofer_viaje_cancelado_titulo">Travel Canceled</string>
+    <string name="notif_channel_chofer_viaje_cancelado_descripcion">Report the travel has been canceled</string>
+
+    <string name="notif_channel_chofer_reserva_cancelado_titulo">Reservation Canceled</string>
+    <string name="notif_channel_chofer_reserva_cancelado_descripcion">Report the reservation has been canceled</string>
+
+    <string name="notif_channel_chofer_viaje_finalizado_titulo">Completed Travel</string>
+    <string name="notif_channel_chofer_viaje_finalizado_descripcion">Inform that the trip has been completed and approved by the agency</string>
+
+
+    <string name="notif_channel_cliente_viaje_aceptado_por_agencia_titulo">Travel acepted by Agency</string>
+    <string name="notif_channel_cliente_viaje_aceptado_por_agencia_descripcion">Inform agency has acepted travel</string>
+
+    <string name="notif_channel_cliente_chofer_asignado_titulo">Assigned Driver</string>
+    <string name="notif_channel_cliente_chofer_asignado_descripcion">Inform agency has assigned a driver</string>
+
+    <string name="notif_channel_cliente_viaje_aceptado_por_chofer_titulo">Travel Accepted by Driver</string>
+    <string name="notif_channel_cliente_viaje_aceptado_por_chofer_descripcion">Inform driver has accepted travel</string>
+
+    <string name="notif_channel_cliente_chofer_acercandose_titulo">Driver Approaching</string>
+    <string name="notif_channel_cliente_chofer_acercandose_descripcion">Inform driver is close</string>
+
+    <string name="notif_channel_cliente_reserva_confirmada_titulo">Reservation Confirmed</string>
+    <string name="notif_channel_cliente_reserva_confirmada_descripcion">Inform reservation has been confirmed by agency</string>
+
+    <string name="notif_channel_cliente_viaje_cancelado_por_chofer_titulo">Travel Canceled by Driver</string>
+    <string name="notif_channel_cliente_viaje_cancelado_por_chofer_descripcion">Report the travel has been canceled by the driver</string>
+
+    <string name="notif_channel_cliente_viaje_cancelado_por_agencia_titulo">Travel Canceled</string>
+    <string name="notif_channel_cliente_viaje_cancelado_por_agencia_descripcion">Inform travel has been canceled</string>
+    <string name="finalizando_viaje">Finishing Travel</string>
+    <string name="procesando_pago">Proccesing payment</string>
+    <string name="espere_unos_segundos">Wait a momment...</string>
+    <string name="price_and_km_modification_description">The price may vary due to: modification of the itinerary, intermediate stops, tolls and waiting time.</string>
+    <string name="tiempo_llegada">Time of arrival:</string>
+    <string name="price_and_km_calculated_not_real">Price and km are estimates, final values may change.</string>
+    <string name="title_activity_new_driver">NewDriverActivity</string>
+    <string name="tab_1_datos_personales">Personal Information</string>
+    <string name="tab_2_datos_vehiculo">Vehicle</string>
+    <string name="tab_3_documentacion_vehiculo">Documentation</string>
+    <string name="siguiente">NEXT</string>
+    <string name="atras">BACK</string>
+    <string name="new_driver_photo_required">All photos are required</string>
+
+    <string name="new_driver_error_email_registered">The email you want to register with is already in use. Please change it for another.</string>
+    <string name="new_driver_error_driver_registered">The driver number you entered has already been used. Please change it for another.</string>
+    <string name="new_driver_error_photos">However, an error occurred while uploading the photos.</string>
+    <string name="new_driver_error_user_get">However, the created user could not be obtained.</string>
+    <string name="new_driver_error_start_msg">However the following errors were found:</string>
+    <string name="new_driver_error_upload_user_photo">Error uploading the driver photo.</string>
+    <string name="new_driver_error_upload_user_licence_photo">Error uploading the driver  license photo.</string>
+    <string name="new_driver_error_upload_vehicle_photo">Error uploading the vehicle photo.</string>
+    <string name="new_driver_error_upload_chapa_photo">Error uploading the photo of the licence plate.</string>
+    <string name="new_driver_error_upload_antecedentes_policiales_photo">Error uploading the police record photo.</string>
+    <string name="new_driver_created_ok_msg">You can now login in the system.</string>
+    <string name="new_driver_created_validate_mail">Please check your email account to validate the account.</string>
+    <string name="error">Error</string>
+    <string name="new_driver_registering">Registering Driver</string>
+    <string name="new_driver_saving_driver">Saving Driver Information...</string>
+    <string name="new_driver_please_not_go_out">Please do not leave this screen until complete, this operation may take a few minutes depending on the speed of your connection.</string>
+    <string name="new_driver_uploading_driver_photo">Subiendo foto del conductor...</string>
+    <string name="new_driver_uploading_driver_licence">Uploading license photo...</string>
+    <string name="new_driver_uploading_vehicle_photo">Subiendo foto del vehículo...</string>
+    <string name="new_driver_uploading_chapa_photo">Uploading photo of the plate...</string>
+    <string name="new_driver_uploading_antecendetes_policiales_photo">Uploading police background photo...</string>
+    <string name="cancelar">Cancel</string>
+    <string name="chofer_cerca_msg">The driver is very close! Enjoy the Trip!</string>
+    <string name="km_0">0 Km</string>
+    <string name="set_puntuation_title">Give the Driver a Score!</string>
+    <string name="chofer_del_viaje">Travel Driver</string>
+    <string name="origen">Origin</string>
+    <string name="destino">Destiny</string>
+    <string name="enviar">Send</string>
+    <string name="omitir">Skip</string>
+    <string name="puntuacion_enviada">Score Sended!</string>
+    <string name="ok">OK</string>
+    <string name="txt_hint_address_to">¿Where do you want to go?</string>
+    <string name="mi_ubicacion_text">My Location</string>
+    <string name="sin_nombre_calle">(no name)</string>
+    <string name="cantidad_ayudantes">Amount of helper: </string>
+    <string name="no_hay_resultado">No Result</string>
+    <string name="must_select_date_reserve">You must select the date and time</string>
+    <string name="solicitando_motivos_de_cancelacion">Requesting cancellation reasons</string>
+    <string name="iniciando_proceso_pago">Starting payment process</string>
+
+    <string name="place_to_pay_question_title_1">1. What is PlaceToPay?</string>
+    <string name="place_to_pay_question_description_1">PlacetoPay is the electronic payment platform that [NOMBRE_COMERCIO] uses to process online the transactions generated in the application [NOMBRE_COMERCIO] with the payment methods enabled for this purpose. </string>
+
+    <string name="place_to_pay_question_title_2">2. How can I pay?</string>
+    <string name="place_to_pay_question_description_2">In the application [NOMBRE_COMERCIO] you can make your payment with the means enabled for this purpose. You, according to the payment options chosen by the merchant, will be able to pay through Diners, Discover, Visa and MasterCard enabled payments; of all banks with current and deferred payments, only cards issued by Banco Pichincha, Diners, Loja, BGR and Manabí.</string>
+
+    <string name="place_to_pay_question_title_3">3.	Is it safe to enter my bank details in this application?</string>
+    <string name="place_to_pay_question_description_3">To protect your data [NOMBRE_COMERCIO] delegates to PlacetoPay the capture of sensitive information. Our payment platform complies with the highest standards required by the international PCI DSS standard for security in credit card transactions. It also has an SSL security certificate issued by GeoTrust a Verisign company, which guarantees secure communications by encrypting all data to and from the site; In this way, you can feel safe when entering your card information.
+
+PlacetoPay also has constant monitoring of McAfee Secure and the signing of electronic messages with Certicámara.
+
+PlacetoPay is a brand of the Colombian company EGM Ingeniería Sin Fronteras S.A.S.
+</string>
+
+    <string name="place_to_pay_question_title_4">4.	Can I make the payment any day and at any time? </string>
+    <string name="place_to_pay_question_description_4">Yes, in [NOMBRE_COMERCIO] you can make your purchases online 7 days a week, 24 hours a day just a click away.</string>
+
+    <string name="place_to_pay_question_title_5">5.	Can I change the payment method?</string>
+    <string name="place_to_pay_question_description_5">If you have not yet completed your payment, you can return to the initial step and choose the payment method you prefer. Once the purchase is completed, it is not possible to change the payment method.</string>
+
+    <string name="place_to_pay_question_title_6">6.	Does paying electronically have any value for me as a buyer?</string>
+    <string name="place_to_pay_question_description_6">No, electronic payments made through PlacetoPay do not generate additional costs for the buyer.</string>
+
+    <string name="place_to_pay_question_title_7">7.	What should I do if my transaction did not complete?</string>
+    <string name="place_to_pay_question_description_7">In the first instance you should check if a payment confirmation email arrived in your email account (the one registered at the time of making the payment), if you have not received it, you should contact [MAIL_COMERCIO] to confirm the status of the transaction.
+
+     In the event that your transaction has declined, you must verify if the account information is valid, is enabled for non-face-to-face purchases and if you have an available space or balance. If after this you continue with the declination you should contact [NOMBRE_COMERCIO]. Ultimately, you can send your request to servicioposventa@placetopay.ec.
+    </string>
+
+    <string name="place_to_pay_question_title_8">8.	What should I do if I did not receive proof of payment?</string>
+    <string name="place_to_pay_question_description_8">For each transaction approved through PlacetoPay, you will receive proof of payment with the purchase reference in the email address you indicated when you paid. If you do not receive it, you can contact the email [MAIL_COMERCIO], to request the receipt of the receipt to the same email address registered when paying. Ultimately, you can send your request to servicioposventa@placetopay.ec.</string>
+
+    <string name="place_to_pay_question_title_9">9. I did not receive the service I bought, what do I do?</string>
+    <string name="place_to_pay_question_description_9">You must verify if the transaction was successful on your bank statement. If so, you should contact [NOMBRE_COMERCIO].</string>
+
+    <string name="place_to_pay_question_title_10">Terms and Conditions</string>
+    <string name="place_to_pay_question_description_10">https://as-nube.com/privacyPolitics.html</string>
+
+    <string name="pagado">Paid</string>
+    <string name="estado_de_pago">Status of payment: </string>
+
+    <string name="place_to_pay_status_aproved">Approved</string>
+    <string name="place_to_pay_status_failed">Failed</string>
+    <string name="place_to_pay_status_rejected">Rejected</string>
+    <string name="place_to_pay_status_aproved_partial">Partially Approved</string>
+    <string name="place_to_pay_status_expired">Expired</string>
+    <string name="place_to_pay_status_pending">Pending</string>
+    <string name="place_to_pay_status_refunded">Refunded</string>
+    <string name="forma_de_pago">Way to pay:</string>
+
+    <string name="solicitar_pago_con_tarjeta">Request to Pay with Card</string>
+    <string name="mensaje_solicitar_pago_con_tarjeta_text_top">By pressing the button, the passenger will have the possibility to pay for the trip in their application.</string>
+    <string name="mensaje_solicitar_pago_con_tarjeta_text_middle">You will have to wait for the payment to finish and you can only continue.</string>
+    <string name="mensaje_solicitar_pago_con_tarjeta_text_bottom">Please do not exit this screen until the operation is complete.</string>
+    <string name="proceso_de_pago_title">Payment Process</string>
+    <string name="proceso_de_pago_body">The customer is paying, please do not leave this screen.</string>
+    <string name="error_call_client_payment">Error starting the payment process.</string>
+    <string name="error_call_finish_client_payment">Error at the end of the payment process.</string>
+    <string name="call_finish_client_payment_cancelled">The payment request has been successfully canceled.</string>
+    <string name="proceso_de_pago_con_tarjeta_cliente_finalizo">The client has finished the payment process, please wait a few seconds.</string>
+    <string name="debe_realizar_pago">Please make the payment</string>
+    <string name="tarjeta_no_valida">Invalid Card</string>
+    <string name="transaccion_aprobada">The transaction has been approved</string>
+    <string name="transaccion_aprobada_title">Transaction approved!</string>
+    <string name="agregar_nombre_valido">You must add a valid name.</string>
+    <string name="agregar_apellido_valido">You must add a valid last name.</string>
+    <string name="agencia_debe_conf_gmap">THE AGENCY MUST CONFIGURE THE GOOGLE MAPS API!</string>
+    <string name="error_guardar_firma">Error saving signature</string>
+    <string name="por_favor_intente_nuevamente">Please, try again.</string>
+    <string name="motor_de_pago_no_configurado">PAYMENT ENGINE NOT CONFIGURED, THE AGENCY MUST CONFIGURE IT!</string>
+
+    <string name="abrir_app">Open App</string>
+    <string name="seleccionar_direccion">Select address</string>
+    <string name="seleccionar_origen_title">Select Origin</string>
+    <string name="seleccionar_destino_title">Select Destiny</string>
+    <string name="fija_ubicacion_en_mapa">Set the location on the map</string>
+    <string name="debe_ingresar_una_direccion_valida">You must enter a valid address</string>
+    <string name="viaje_por_hora">Travel per hour:</string>
+    <string name="tiempo_total">Total time: [TIME]</string>
+
+    <string name="prefinalizar_viaje">PREFINALIZE TRIP</string>
+    <string name="viaje_siendo_aprobado_por_web">Your trip is being approved by the web operator</string>
+    <string name="viaje_minimo">Minimum trip</string>
+    <string name="origin_pac_msg">* The price includes the distance to the agreed origin.</string>
+    <string name="metodo_de_pago_recargo">The selected payment method has a surcharge of [VALUE]%</string>
+    <string name="error_pago_cliente">Customer payment error</string>
+    <string name="error_pago_cliente_description">The client was unable to pay the amount, please try again or use another means of payment.</string>
+    <string name="cliente_iniciado_pago">The customer has started the payment process. Wait for it to finish.</string>
+    <string name="cliente_esta_pagando">Customer is paying</string>
+    <string name="no_salga_pantalla">Please do not leave this screen</string>
+    <string name="cancelar_pago_cliente_title">CANCEL PAYMENT ON THE CLIENT</string>
+    <string name="problema_conexion_internet">Internet connection problem!</string>
+    <string name="verificar">Verify</string>
+    <string name="finalizar_viaje_esta_seguro">Are you sure you want to finish the trip!</string>
+    <string name="set_retornar_msg">Press \'Return \' Confirm Return of Trip!</string>
+    <string name="retornar">Return</string>
+    <string name="firma_guardada">Saved Signature</string>
+    <string name="enviando_viaje">Sending travel</string>
+    <string name="viaje_solicitado_title">Travel Requested!</string>
+    <string name="ya_posee_viaje">You already have an assigned trip</string>
+    <string name="verificando_viaje">Verifying Travel</string>
+    <string name="viaje_cancelado">Travel canceled!</string>
+    <string name="viaje_cancelado_por_cliente">Travel Canceled by Client!</string>
+    <string name="viaje_finalizado_desde_web">Travel Completed from the Web, by the Operator!</string>
+    <string name="confirmar">Confirm</string>
+    <string name="espera_desactivada">Waiting Disabled</string>
+    <string name="espera_activada">Waiting Activated</string>
+    <string name="pausar">PAUSE</string>
+    <string name="tienes_x_reservas">You have ([CANT]) Reservations!</string>
+    <string name="enviado">Sent</string>
+    <string name="viaje_rechazado">TRAVEL REJECTED!</string>
+    <string name="vuelta_activada">Returning Activated!</string>
+    <string name="error_debe_aproximarse_mas">You cannot start this travel, you must get closer to the point of origin</string>
+    <string name="cargando_pago">Loading payment</string>
+
+
+    <string name="problema_internet">Internet connection problem!</string>
+    <string name="error_intente_nuevamente">An error occurred. Please try again.</string>
+    <string name="redireccionando_a_place_to_pay">Redirecting to PlaceToPay</string>
+    <string name="error_pagar_place_to_pay">Error trying to pay with PlaceToPay</string>
+    <string name="referencia">\nReference: </string>
+    <string name="error_en_el_pago">Paying Error</string>
+    <string name="error_en_el_pago_msg">Payment error, please try one more time and if it still fails, use another payment method. \nThanks.</string>
+    <string name="error_procesar_place_to_pay">Error processing payment with PlaceToPay. Try again. If it continues to fail, use another payment method</string>
+    <string name="pago_rechazado_retry">Please try one more time and if it fails use another card.</string>
+    <string name="intente_con_otra_tarjeta">Please try another card</string>
+    <string name="codigo_autorizacion">Authorization code: </string>
+    <string name="pago_pendiente">Pending payment!</string>
+    <string name="pago_pendiente_msg">Payment is pending approval</string>
+    <string name="metodo_de_pago">Payment Method: </string>
+    <string name="id_de_referencia_es">Reference ID is: </string>
+    <string name="intento_n"> . Try Nº </string>
+    <string name="de">of </string>
+    <string name="finalizando_pago">Finalized Payment</string>
+    <string name="iniciando_proceso_de_pago">Starting payment process</string>
+    <string name="error_redirigir_a_pago">An error occurred while redirecting to the checkout page</string>
+    <string name="no_existe_url">There is no URL to make the payment</string>
+    <string name="liquidado">Sold out!</string>
+    <string name="distancia_aplicacion">Application Distance: </string>
+    <string name="distancia_presupuestada">Budgeted distance: </string>
+    <string name="km"> Km</string>
+    <string name="listado_de_pasajeros">Passengers List: </string>
+    <string name="adultos">Adults: </string>
+    <string name="ninios">Kids: </string>
+    <string name="bebes">Babies: </string>
+    <string name="movilidad_reducida">Reduced Mobility: </string>
+    <string name="redirect_terminos_y_condiciones">Redirecting to terms and conditions</string>
+    <string name="aceptado">Accepted</string>
+    <string name="chofer_en_camino">Driver on way</string>
+    <string name="en_curso">In Progress</string>
+    <string name="permiso_denegado">Permission denied</string>
+    <string name="calculando">Calculating...</string>
+    <string name="error_calcular_distancia">An error occurred while calculating the distance. Please try again</string>
+    <string name="s_n">N/N</string>
+    <string name="enviando_solicitud">Request Sent</string>
+    <string name="reserva_solicitada">Reservation Requested!</string>
+    <string name="buscando_chofer">Looking for a Driver...</string>
+    <string name="agencia_sin_motivos_cancelacion">Agency without reasons for cancellation configured</string>
+    <string name="seleccione_un_motivo">You must select a reason</string>
+
+    <string name="tiempo_de_llegada_del_chofer">Driver arrival time: </string>
+    <string name="tipo_de_vehiculo">Vehicle Type</string>
+    <string name="cargando_modelos">Loading models</string>
+    <string name="actualizando">Updating</string>
+    <string name="espere">Wait...</string>
+    <string name="actualizando_foto">Updating Photo</string>
+    <string name="tiene_una_nueva_notificacion">You have a new notification</string>
+    <string name="notif_nueva_reserva">New Reservation</string>
+    <string name="notif_nuevo_viaje">New Travel</string>
+    <string name="notif_reserva_cancelada">Reservation canceled</string>
+    <string name="notif_viaje_aceptado_por_agencia">Travel accepted by the agency</string>
+    <string name="notif_viaje_cancelado">The trip has been canceled</string>
+    <string name="notif_chofer_asignado">You have a driver assigned</string>
+    <string name="notif_chofer_cerca">The driver is very close! Enjoy the Trip!</string>
+    <string name="notif_reserva_aceptada_por_ag">Your reservation has been accepted by the company</string>
+    <string name="notif_chofer_acepta_viaje">The driver has accepted the trip</string>
+    <string name="informacion_del_viaje">Travel Information</string>
+    <string name="indique_motivo_cancela_viaje">Indicate the reason for canceling the trip</string>
+    <string name="reportar_falla">Report failure</string>
+    <string name="reportar">Report</string>
+    <string name="atencion">¡ATTENTION!</string>
+    <string name="distancia_recorrida_menor_distancia_presupuestada">The distance traveled calculated by the application is significantly less than the budgeted distance</string>
+    <string name="cual_desea_utilizar">Which one do you want to use?</string>
+    <string name="no_se_cargo_informacion">No information was loaded</string>
+    <string name="proximamente">Soon</string>
+    <string name="foto_del_conductor">DRIVER PHOTO</string>
+    <string name="obligatorio">* Required</string>
+    <string name="licencia_del_conductor">DRIVER  LICENSE</string>
+    <string name="foto_del_vehiculo">VEHICLE PHOTO</string>
+    <string name="foto_chapa_del_vehiculo">VEHICLE PATENT PHOTO</string>
+    <string name="certificado_antecedentes_policiales">POLICE BACKGROUND CERTIFICATE</string>
+    <string name="quiero_un_auto_ahora">I want a car now</string>
+    <string name="reserva_futura">Future Reserve</string>
+    <string name="mi_ubicaci_n">My location</string>
+    <string name="cantidad_de_ayudantes_7">Number of helpers: 7</string>
+    <string name="ver_datos">See Data</string>
+    <string name="tiempo_transcurrido">Elapsed time:</string>
+    <string name="funcion_desactivada_por_la_empresa">Function deactivated by the company</string>
+    <string name="titulo">title</string>
+    <string name="contenido">content</string>
+    <string name="no_procesado">Not processed</string>
+    <string name="tipo_operacion">operation type</string>
+    <string name="articulo">Item</string>
+    <string name="c_mo_desea_ingresar_el_destino">How do you want to enter the destination?</string>
+    <string name="cl_sica_recomendada">Classic (recomended)</string>
+    <string name="ingresar_direccion_exacta">You must enter an exact address and it will be validated that it exists on the map.</string>
+    <string name="describir_direccion">Describe Address</string>
+    <string name="puede_ingresar_direccion_sin_validar">You can enter the address without having to validate it on the map.</string>
+    <string name="viaje_ahora">Travel Now</string>
+    <string name="de_sin_espacios">from</string>
+    <string name="a">to</string>
+    <string name="piso">Floor:</string>
+    <string name="flete_con_dos_puntos">Freight:</string>
+    <string name="lote">Lot:</string>
+    <string name="dpto">Dpto:</string>
+    <string name="espera">Waiting:</string>
+    <string name="retorno">Return:</string>
+
+    <string name="mensaje">Message</string>
+    <string name="viaje_cancelado_sin_autos">No cars available. Please, try again later</string>
+    <string name="ingresar_con_facebook">Login with Facebook</string>
+    <string name="hola">Hello</string>
+    <string name="user_no_not_exist">User do not exists</string>
+    <string name="new_driver_created_with_social_id">Once the company enables it, you will be able to access the application. Thank you so much.</string>
+    <string name="acepto_condiciones"><u>Accept terms and conditions</u></string>
+    <string name="servicio_inactivo">Servicio Inactivo</string>
+    <string name="fotografia_usuario">User Photo</string>
+    <string name="tipo_servicio">Tipo de Servicio que brindará</string>
+    <string name="chat_text_default">Type your message here</string>
+    <string name="chat_message_received_title">Message from admnistration</string>
+    <string name="message_not_sent">Message not sent. Channel is closed
+    </string>
+</resources>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/panel_for_finish_choose_travel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:behavior_peekHeight="118dp"
+    android:paddingBottom="8dp"
+    android:background="@color/blanco"
+    app:layout_behavior="com.apreciasoft.mobile.asremis.Util.AnchorSheetBehavior"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/tap_action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+            <LinearLayout
+                android:layout_width="56dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/blueClear"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_icon_distance"
+                        android:layout_width="@dimen/client_bottom_layout_finish_travel_icon_size"
+                        android:layout_height="@dimen/client_bottom_layout_finish_travel_icon_size"
+                        android:layout_toStartOf="@+id/distanceTravel"
+                        android:layout_toLeftOf="@+id/distanceTravel"
+                        android:layout_marginTop="4dp"
+                        android:tint="@color/colorNegroLight"
+                        app:srcCompat="@drawable/ic_distancia"
+                        />
+
+                    <TextView
+                        android:id="@+id/distanceTravel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_toStartOf="@+id/sepatator"
+                        android:layout_toLeftOf="@+id/sepatator"
+                        android:text="13 km"
+                        android:textColor="@color/colorNegro"
+                        android:textSize="@dimen/textTitle"
+                        />
+
+                    <ImageView
+                        android:id="@+id/sepatator"
+                        android:layout_width="1dp"
+                        android:layout_height="@dimen/client_bottom_layout_finish_travel_separator"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:src="@color/colorNegro"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/amountEstimate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/sepatator"
+                        android:layout_toRightOf="@+id/sepatator"
+                        android:paddingTop="0dp"
+                        android:text="$ 0"
+                        android:textColor="@color/colorVerde"
+                        android:textSize="@dimen/textPrice"
+                        android:textStyle="bold"/>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txtInfoForPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/origin_pac_msg"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    android:textColor="@color/colorNaranja"
+                    />
+
+                <TextView
+                    android:id="@+id/txtInfoGoogleCalculate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price_and_km_modification_description"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="8dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textColor="@color/black60"
+                    />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_vehicle_selection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgMoreCarLeft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_chevron_left_black_56dp"
+                        android:layout_marginLeft="-8dp"
+                        android:layout_marginStart="-8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgMoreCarRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_chevron_left_black_56dp"
+                        android:rotation="180"
+                        android:layout_marginRight="-8dp"
+                        android:layout_marginEnd="-8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/client_bottom_layout_finish_travel_buttom_margin_top"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_view_need_flete"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:elevation="16dp"
+                        android:clickable="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="0.5"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingBottom="8dp"
+                            android:background="@color/white87"
+
+                            >
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginTop="4dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/necesita_flete"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:textSize="@dimen/client_bottom_layout_finish_travel_title_card"
+                                    android:textColor="@color/colorNegro"
+                                    />
+                                <ImageView
+                                    android:id="@+id/imgFleteCheck"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/client_bottom_layout_finish_travel_image_flete"
+                                    app:srcCompat="@drawable/ic_check_black_24dp"
+                                    android:tint="@color/colorVerde"
+                                    android:padding="0dp"
+                                    android:scaleType="centerCrop"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="4dp"
+                                    />
+
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/imgCenterFlete"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/client_bottom_layout_finish_travel_image_flete"
+                                    app:srcCompat="@drawable/ic_flete_car"
+                                    android:padding="0dp"
+                                    android:visibility="gone"
+                                    android:layout_gravity="center"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerInside"
+                                    />
+
+                            </RelativeLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginTop="-2dp"
+                                >
+                                <TextView
+                                    android:id="@+id/txt_cant_ayudantes_main"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:text="@string/cantidad_de_ayudantes_7"
+                                    android:textSize="@dimen/client_bottom_layout_finish_travel_title_card"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_view_need_flight"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:elevation="16dp"
+                        android:clickable="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="0.5"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:focusable="true">
+                        <LinearLayout
+                            android:id="@+id/item_background"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingBottom="8dp"
+                            android:background="@color/white87"
+
+                            >
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginTop="4dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/datos_vuelo"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:textSize="@dimen/client_bottom_layout_finish_travel_title_card"
+                                    android:textColor="@color/colorNegro"
+                                    />
+
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/img_foto_vehiculo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/client_bottom_layout_finish_travel_image_flete"
+                                app:srcCompat="@drawable/ic_flight_black_24dp"
+                                android:padding="0dp"
+                                android:visibility="gone"
+                                android:layout_gravity="center"
+                                android:scaleType="centerInside"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginTop="8dp"
+                                >
+                                <TextView
+                                    android:id="@+id/txt_ver_datos_flight"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text="@string/ver_datos"
+                                    android:textColor="@color/colorAzul"
+                                    android:textSize="@dimen/client_bottom_layout_finish_travel_title_card"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_requetTravelNow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/colorNegro"
+                    android:text="@string/solicitar_viaje"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/textTitle"
+                    android:padding="@dimen/client_bottom_layout_finish_travel_buttom_padding"
+                    android:textColor="@color/blanco"
+                    android:layout_marginTop="@dimen/client_bottom_layout_finish_travel_buttom_margin_top"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+
+                    />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/btn_close_finish_travel"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="14dp"
+        app:srcCompat="@drawable/ic_close"
+        android:tint="@color/black87"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

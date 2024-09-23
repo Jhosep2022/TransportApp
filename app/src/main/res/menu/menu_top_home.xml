@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_map_24dp"
+        android:orderInCategory="200"
+        android:title="@string/mapa"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/action_refhesh"
+        android:icon="@drawable/ic_sincronizar"
+        android:orderInCategory="200"
+        android:title="@string/recargar"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/action_reervations"
+        app:actionLayout="@layout/custom_action_item_layout"
+        android:icon="@drawable/ic_notification_reservations"
+        android:orderInCategory="200"
+        android:title="@string/reservas"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@drawable/ic_menu_notifications"
+        android:orderInCategory="200"
+        android:title="@string/notificaciones"
+        app:showAsAction="always"></item>
+
+
+</menu>
